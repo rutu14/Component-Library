@@ -1,1 +1,9 @@
 @import url(reset.css);
+@import url(/components/avatar.css);
+
+:root{
+    --primary-colour:#E26C6D;
+    --secondary-colour:#798897;
+    --tertiary-colour:#FBF7FF;
+    --quaternary-colour:#FFFADE;
+}
