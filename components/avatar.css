@@ -5,7 +5,7 @@
 }
 
 .avatar{
-    border: 2px solid var(--primary-colour);    
+    border: 2px solid var(--secondary-colour);    
     border-radius: 50%;
 }
 
@@ -34,7 +34,7 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    background-color: var(--secondary-colour);
+    background-color: var(--quaternary-colour);
 }
 
 .text-sm{
