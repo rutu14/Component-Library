@@ -29,7 +29,9 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    background-color: var(--quaternary-colour);
+    background-color: var(--primary-colour);
+    color: var(--quaternary-colour);
+    border: none;
 }
 
 .text-sm{

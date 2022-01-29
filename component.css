@@ -26,6 +26,12 @@
 
     --info-text: #6b4de4;
     --info-background: #ded8f8;
+
+    --btn-link: #808080;
+    --btn-hover: #e26c6e69;
+
+    --white:#ffffff;
+    --black: #070707;
 }
 
 html{
