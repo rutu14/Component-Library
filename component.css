@@ -6,6 +6,7 @@
 @import url(/components/utilities.css);
 
 @import url(/components/avatar.css);
+@import url(/components/alert.css);
 
 
 :root{
@@ -13,6 +14,18 @@
     --secondary-colour:#798897;
     --tertiary-colour:#FBF7FF;
     --quaternary-colour:#FFFADE;
+
+    --success-text: #39C16C;
+    --success-background: #ddefe2;
+
+    --error-text: #f30c0c;
+    --error-background: #ffbaba;
+
+    --warning-text: #ecb650;
+    --warning-background: #f8edd8;
+
+    --info-text: #6b4de4;
+    --info-background: #ded8f8;
 }
 
 html{
