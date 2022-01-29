@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
     <title>Component-Library</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+    <aside class="drawer">
+        <div class="drawerHeader">
+            <h3 class="heading3 regular">Components</h3>
+            <h6 class="headerSubtitle regular">Click on component to view</h6>
+        </div>
+        <div class="drawerContent">
+            <nav >
+                <ul class="menu">
+                    <li class="listItem">
+                         <a href="avatar.html#avatar" target="content" class="listValue text4 ls">Avatar</a>
+                    </li>
+                    <li class="listItem">
+                         <a href="#" class="listValue text4 ls"></i>Alert</a>
+                    </li>
+                    <li class="listItem">
+                        <a href="#"  class="listValue text4 ls"></i>Badge</a>
+                   </li>
+                    <li class="listItem">
+                         <a href="#" class="listValue text4 ls">Button</a>
+                         <input type="radio" name="dropdown" id="dropopen" />     
+                         <label class="closer cp m10" for="dropclose"><i class="bi bi-chevron-up"></i></label>                   
+                         <label class="opener cp m10" for="dropopen"><i class="bi bi-chevron-down"></i></label>                        
+                         <ul>
+                             <li class="listMenuItem">
+                                 <a href="" class="listMenuValue" >Button 1</a>
+                             </li>
+                             <li class="listMenuItem">
+                                 <a href="" class="listMenuValue">Button 2</a>
+                             </li>
+                             <li class="listMenuItem">
+                                 <a href="" class="listMenuValue">Button 3</a>
+                             </li>
+                         </ul>
+                         <input type="radio" name="dropdown" id="dropclose" /> 
+                    </li>
+                    <li class="listItem">
+                         <a href="#" class="listValue text4 ls">Card</a>
+                         <input type="radio" name="drop1down" id="drop1open" />     
+                         <label class="closer cp m10" for="drop1close"><i class="bi bi-chevron-up"></i></label>                   
+                         <label class="opener cp m10" for="drop1open"><i class="bi bi-chevron-down"></i></label>                        
+                         <ul>
+                             <li class="listMenuItem">
+                                 <a href="" class="listMenuValue">Card 1</a>
+                             </li>
+                             <li class="listMenuItem">
+                                 <a href="" class="listMenuValue">Card 2</a>
+                             </li>
+                             <li class="listMenuItem">
+                                 <a href="" class="listMenuValue">Card 3</a>
+                             </li>
+                         </ul>
+                         <input type="radio" name="drop1down" id="drop1close" />                        
+                    </li>
+                   <li class="listItem">
+                    <a href="#" class="listValue text4 ls"></i>Image</a>
+                    </li>
+                    <li class="listItem">
+                        <a href="#" class="listValue text4 ls"></i>Input</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <main class="maincontent">
+        <iframe src="avatar.html" name="content"></iframe>
+    </main>
+    </div>
 </body>
 </html>

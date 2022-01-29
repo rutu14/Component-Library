@@ -1,1 +1,22 @@
-@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@400;500;700&display=swap');
+
+@import url(/components/reset.css);
+@import url(/components/typography.css);
+@import url(/components/margin.css);
+@import url(/components/utilities.css);
+
+@import url(/components/avatar.css);
+
+
+:root{
+    --primary-colour:#E26C6D;
+    --secondary-colour:#798897;
+    --tertiary-colour:#FBF7FF;
+    --quaternary-colour:#FFFADE;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}

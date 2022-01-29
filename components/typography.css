@@ -1,0 +1,82 @@
+.heading1{
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+}
+.heading2{
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+}
+.heading3{
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+.heading4{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.heading5{
+    font-size: .8rem;
+    line-height: 1.6rem;
+}
+
+.text1{
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+}
+
+.text2{
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+}
+
+.text3{
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+
+.text4{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.text5{
+    font-size: .8rem;
+    line-height: 1.6rem;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.extra-light{
+    font-weight: 200;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.regular{
+    font-weight: 400;
+}
+
+.medium{
+    font-weight: 500;
+}
+
+.semi-bold{
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.black{
+    font-weight: 900;
+}
+
+.ls{
+    letter-spacing: .0071428571em;
+}
+
