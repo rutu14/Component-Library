@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div id="badgecomponent" >
+
+        <h1 class="heading2 medium">Badge</h1>
+        <h4 class="text4 light">Badges can help in notifying the users of the action to be performed or in current use.</h4>
+
+        <p class="heading4 regular m8">Badge on Icons</p>
+        <div class="tabs">
+            <div role="tablist" aria-label="Sample Tabs" >
+                <button role="tab" aria-selected="true" aria-controls="panel-11" id="tab-11" class="tab-header cp heading4">
+                    Example
+                </button>
+                <button role="tab" aria-selected="false" aria-controls="panel-12" id="tab-12" class="tab-header cp heading4">
+                    Code
+                </button>
+            </div>
+            <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">                    
+                    <div  class="container">
+
+                        <button class="button-icon"><i class="bi bi-cart3"></i><span class="textButtonBadge">9</span></button>
+
+                        <button class="button-icon"><i class="bi bi-cart"></i><span class="textButtonBadge">9</span></button>
+
+                        <button class="button-icon"><i class="bi bi-bell"></i><span class="textButtonBadge">9</span></button>
+
+                    </div>
+            </div>
+            <div id="panel-12" role="tabpanel" aria-labelledby="tab-12" hidden>
+                <iframe class="carbon-script"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-dark&wt=none&l=htmlmixed&width=639.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522bi%2520bi-cart3%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522textButtonBadge%2522%253E9%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522bi%2520bi-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522textButtonBadge%2522%253E9%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522bi%2520bi-bell%2522%253E%250A%2520%2520%253C%252Fi%253E%253Cspan%2520class%253D%2522textButtonBadge%2522%253E9%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+        </div>
+
+        <p class="heading4 regular m8">Badge on Avatar</p>
+
+        <div class="tabs">
+            <div role="tablist" aria-label="Sample Tabs">
+                <button role="tab" aria-selected="true" aria-controls="panel-21" id="tab-21" class="tab-header cp heading4">
+                    Example
+                </button>
+                <button role="tab" aria-selected="false" aria-controls="panel-22" id="tab-22" class="tab-header cp heading4">
+                    Code
+                </button>
+            </div>
+            <div id="panel-21" role="tabpanel" class="m10" aria-labelledby="tab-21">                    
+                <div class="container">
+                    <div class="avatar badge-ic avatar-text text-sm">
+                        <span class="avatar-badge badge-sm"></span>
+                        RL
+                    </div>
+
+                    <div class="avatar badge-ic avatar-text text-md">
+                        <span class="avatar-badge badge-md"></span>
+                        RL
+                    </div>
+                    
+                    <div class="avatar badge-ic avatar-text text-lg">
+                        <span class="avatar-badge badge-lg"></span>
+                        RL
+                    </div>
+
+                    <div class="avatar badge-ic avatar-text text-xl">
+                        <span class="avatar-badge badge-xl"></span>
+                        RL
+                    </div>
+
+                </div>        
+            </div>
+            <div id="panel-22" role="tabpanel" aria-labelledby="tab-22" hidden>
+               <iframe class="carbon-script"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.01%29&t=one-dark&wt=none&l=htmlmixed&width=758.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520badge-ic%2520avatar-text%2520text-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-badge%2520badge-sm%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520RL%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520badge-ic%2520avatar-text%2520text-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-badge%2520badge-md%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520RL%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520badge-ic%2520avatar-text%2520text-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-badge%2520badge-lg%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520RL%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520badge-ic%2520avatar-text%2520text-xl%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-badge%2520badge-xl%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520RL%250A%2520%2520%2520%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
+<!-- style="width: 809px; height: 356px; border:0; transform: scale(1); overflow:hidden;" -->
