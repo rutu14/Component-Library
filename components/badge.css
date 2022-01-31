@@ -1,0 +1,63 @@
+.button-icon{
+    background: none;
+    border: none;
+    font-size: 3rem;
+    position: relative;
+}
+
+.textButtonBadge{
+    align-items: center;
+    border-radius: 50%;
+    color: var(--quaternary-colour);
+    display: flex;
+    font-size: 1.5rem;
+    height: 2rem;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(25%, -35%);
+    width: 2rem;
+    background-color: var(--primary-colour);
+}
+
+.badge-ic{
+    position: relative;
+}
+
+.avatar-badge{
+    border-radius: 50%;    
+    position: absolute;    
+    background-color: var(--success-text);
+    border: 0.15rem solid var(--white);
+}
+
+.badge-sm{
+    height: 1rem;
+    width: 1rem;
+    background-color: var(--warning-text);
+    transform: translate(130%, 70%);
+}
+
+.badge-md{
+    border-width: 2px;
+    height:1.2rem;
+    width: 1.2rem;
+    transform: translate(150%, 80%);
+}
+
+.badge-lg{
+    border-width: 2px;
+    height:1.4rem;
+    width: 1.4rem;
+    background-color: var(--info-text);
+    transform: translate(160%, 100%);
+}
+
+.badge-xl{
+    height:2rem;
+    width: 2rem;
+    border-width: 3px;
+    background-color: var(--error-text);
+    transform: translate(240%, 140%);
+}

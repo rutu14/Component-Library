@@ -8,13 +8,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Component-Library</title>
 </head>
-<body>
+<body class="documentation">
     <div class="wrapper">
-    <aside class="drawer">
-        <div class="drawerHeader">
-            <h3 class="heading3 regular">Components</h3>
-            <h6 class="headerSubtitle regular">Click on component to view</h6>
+    <header class="header">
+        <h1 class="heading2 medium"></h1>      
+        <div class="header-nav m10">
+            <nav>
+                <ul>
+                  <li><a href="#" class="text4 text-link">Home</a></li>
+                  <li><a href="#" class="text4 text-link">Documentation</a></li>
+                </ul>
+            </nav>
+            <div class="account-links">
+                <a href="#" class="icon-button icon-outline"><i class="bi bi-github"></i></a>
+                <a href="#" class="icon-button icon-outline"><i class="bi bi-linkedin"></i></a>
+            </div>
         </div>
+     </header>
+    <aside class="drawer">
+        <h3 class="heading4 medium">Components</h3>
         <div class="drawerContent">
             <nav >
                 <ul class="menu">
@@ -25,23 +37,26 @@
                          <a href="alert.html#alertcomponent" target="content" class="listValue text4 ls"></i>Alert</a>
                     </li>
                     <li class="listItem">
-                        <a href="#"  class="listValue text4 ls"></i>Badge</a>
+                        <a href="badge.html#badgecomponent" target="content"  class="listValue text4 ls"></i>Badge</a>
                    </li>
                     <li class="listItem">
-                         <a href="#" class="listValue text4 ls">Button</a>
+                         <a href="button.html" target="content" class="listValue text4 ls">Button</a>
                          <input type="radio" name="dropdown" id="dropopen" />     
                          <label class="closer cp m10" for="dropclose"><i class="bi bi-chevron-up"></i></label>                   
                          <label class="opener cp m10" for="dropopen"><i class="bi bi-chevron-down"></i></label>                        
                          <ul>
                              <li class="listMenuItem">
-                                 <a href="" class="listMenuValue" >Button 1</a>
+                                 <a href="button.html#primarybuttons" target="content" class="listMenuValue" >Primary Buttons</a>
                              </li>
                              <li class="listMenuItem">
-                                 <a href="" class="listMenuValue">Button 2</a>
+                                 <a href="button.html#linkbutton" target="content" class="listMenuValue">Link Button</a>
                              </li>
                              <li class="listMenuItem">
-                                 <a href="" class="listMenuValue">Button 3</a>
+                                 <a href="button.html#iconbutton" target="content" class="listMenuValue">Icon Button</a>
                              </li>
+                             <li class="listMenuItem">
+                                <a href="button.html#floatingbutton" target="content" class="listMenuValue">Floating Button</a>
+                            </li>
                          </ul>
                          <input type="radio" name="dropdown" id="dropclose" /> 
                     </li>
