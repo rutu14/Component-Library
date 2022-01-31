@@ -40,14 +40,14 @@
 }
 
 .badge-md{
-    border-width: 0.2rem;
+    border-width: 2px;
     height:1.2rem;
     width: 1.2rem;
     transform: translate(150%, 80%);
 }
 
 .badge-lg{
-    border-width: 0.2rem;
+    border-width: 2px;
     height:1.4rem;
     width: 1.4rem;
     background-color: var(--info-text);
@@ -57,7 +57,7 @@
 .badge-xl{
     height:2rem;
     width: 2rem;
-    border-width: 0.3rem;
+    border-width: 3px;
     background-color: var(--error-text);
     transform: translate(240%, 140%);
 }

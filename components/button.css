@@ -15,7 +15,7 @@
     font-size: 1.4rem;
     line-height: 3.6rem;
     font-weight: 500;
-    letter-spacing: .0892857143em;
+    letter-spacing: .0892857143px;
     text-transform: uppercase;
     padding: 0 0.8rem;
 }
@@ -74,7 +74,7 @@
 
 .outline, .icon-outline{
     background-color: var(--white);
-    border: 0.1rem solid var(--primary-colour);
+    border: 1px solid var(--primary-colour);
     color: var(--primary-colour);
 }
 
