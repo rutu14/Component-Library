@@ -10,7 +10,7 @@
 @import url(/components/alert.css);
 @import url(/components/badge.css);
 @import url(/components/button.css);
-
+@import url(/components/card.css);
 
 :root{
     --primary-colour:#E26C6D;

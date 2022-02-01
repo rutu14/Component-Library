@@ -47,6 +47,7 @@
 }
 
 .icon-button{
+    color: var(--black);
     border: none;
     font-size: 3rem;
     cursor: pointer;
