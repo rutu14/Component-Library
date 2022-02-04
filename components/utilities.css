@@ -2,6 +2,18 @@
     cursor: pointer;
 }
 
+.cna{
+    cursor: not-allowed;
+}
+
+.display-block{
+    display: block;
+}
+
+.display-inlineblock{
+    display: inline-block;
+}
+
 .image-responsive{
     width: 100%;
     height: auto;

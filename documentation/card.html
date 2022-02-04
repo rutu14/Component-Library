@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Component-Library</title>
+</head>
+<body class="documentation">
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="heading2 medium"></h1>      
+            <div class="header-nav m10">
+                <nav>
+                    <ul>
+                      <li><a href="#" class="text4 text-link">Home</a></li>
+                      <li><a href="#" class="text4 text-link">Documentation</a></li>
+                    </ul>
+                </nav>
+                <div class="account-links">
+                    <a href="#" class="icon-button"><i class="bi bi-github"></i></a>
+                    <a href="#" class="icon-button"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+         </header>
+        <aside class="sidebar">
+            <h3 class="heading4 medium">Components</h3>
+            <div class="sidebar-content">
+                <nav >
+                    <ul class="menu">
+                        <li class="listItem">
+                             <a href="avatar.html#avatarcomponent" class="listValue text4 ls">Avatar</a>
+                        </li>
+                        <li class="listItem">
+                             <a href="alert.html#alertcomponent" class="listValue text4 ls"></i>Alert</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="badge.html#badgecomponent" class="listValue text4 ls"></i>Badge</a>
+                       </li>
+                        <li class="listItem">
+                             <a href="button.html" class="listValue text4 ls">Button</a>
+                             <input type="radio" name="dropdown" id="dropopen" />     
+                             <label class="closer cp m10" for="dropclose"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="dropopen"><i class="bi bi-chevron-down"></i></label>                        
+                             <ul>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#primarybuttons"  class="listMenuValue" >Primary Buttons</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#linkbutton"  class="listMenuValue">Link Button</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#iconbutton"  class="listMenuValue">Icon Button</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                    <a href="button.html#floatingbutton"  class="listMenuValue">Floating Button</a>
+                                </li>
+                             </ul>
+                             <input type="radio" name="dropdown" id="dropclose" /> 
+                        </li>
+                        <li class="listItem">
+                             <a href="card.html" class="listValue text4 ls">Card</a>
+                             <input type="radio" name="drop1down" id="drop1open" />     
+                             <label class="closer cp m10" for="drop1close"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="drop1open"><i class="bi bi-chevron-down"></i></label>                        
+                             <ul>
+                                 <li class="listMenuItem">
+                                     <a href="card.html#vertical" class="listMenuValue">Vertical Layout</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="card.html#horizontal" class="listMenuValue">Horizontal Layout</a>
+                                 </li>                                 
+                             </ul>
+                             <input type="radio" name="drop1down" id="drop1close" />                        
+                        </li>
+                       <li class="listItem">
+                        <a href="#" class="listValue text4 ls"></i>Image</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="#" class="listValue text4 ls"></i>Input</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <main class="maincontent">
+            <div id="cardcomponent" >
+                <h1 class="heading2 medium">Cards</h1>
+                <h4 class="text4 light">Cards can be used to show information in various forms.</h4>
+                <h4 class="text4 light">Note: <p class="text4 display-inlineblock light">By default the card has a outline present, but can be changed to box shadow.</p></h4>
+                
+
+                <h3 id="vertical" class="heading3 m-t20 light">Vertical Layout Cards </h3>
+                <p class="heading4 regular m8">Basic Card</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-11" id="tab-11" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-12" id="tab-12" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">                    
+                       <div class="container">               
+                            <div class="card">
+                                        <img class="card-img card-img-border" src="/assests/images/Avatar.jpg">                        
+                                        <div class="card-title-box">
+                                            <h2 class="card-title medium">Our Changing Planet</h2>
+                                            <h3 class="card-subtitle medium">by Kurt Wagner</h3>
+                                        </div>
+                                    <div class="card-content">
+                                        Visit ten places on our planet that are undergoing the biggest changes today.
+                                    </div>
+                                <div class="card-actions">
+                                    <div class="text-actions">
+                                        <button class="text-card-button">Read</button>
+                                        <button class="text-card-button">BookMark</button>
+                                    </div>
+                                    <div class="icon-actions">
+                                        <button class="icon-card-button"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-card-button"><i class="bi bi-share-fill"></i></button>
+                                        <button class="icon-card-button"><i class="bi bi-three-dots-vertical"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="panel-12" role="tabpanel" aria-labelledby="tab-12" hidden>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-dark&wt=none&l=htmlmixed&width=903&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520card-img-border%2522%2520src%253D%2522%252Fassests%252Fimages%252FAvatar.jpg%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-title-box%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520medium%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-subtitle%2520medium%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-actions%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2522%253ERead%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2522%253EBookMark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-share-fill%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-three-dots-vertical%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%2509%250A"
+                        style="width: 903px; height: 580px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>   
+                    </div>
+                </div>
+                
+                <p class="heading4 regular m8">Card with title over media</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-21" id="tab-21" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-22" id="tab-22" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-21" role="tabpanel" class="m10" aria-labelledby="tab-21">                    
+                       <div class="container">               
+                        <div class="card">                   
+                                    <img class="card-img card-img-border" src="/assests/images/Avatar.jpg"> 
+                                    <div class="card-title-box overlay ">
+                                        <h2 class="card-title medium">Our Changing Planet</h2>
+                                        <h3 class="card-subtitle medium">by Kurt Wagner</h3>
+                                    </div>
+                                <div class="card-content overlay-content">
+                                    Visit ten places on our planet that are undergoing the biggest changes today.
+                                </div>
+                            <div class="card-actions">
+                                <div class="text-actions">
+                                    <button class="text-card-button">Read</button>
+                                    <button class="text-card-button">BookMark</button>
+                                </div>
+                                <div class="icon-actions">
+                                    <button class="icon-card-button"><i class="bi bi-heart"></i></button>
+                                    <button class="icon-card-button"><i class="bi bi-share-fill"></i></button>
+                                    <button class="icon-card-button"><i class="bi bi-three-dots-vertical"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div> 
+                    <div id="panel-22" role="tabpanel" aria-labelledby="tab-22" hidden>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-dark&wt=none&l=htmlmixed&width=891&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520card-img-border%2522%2520src%253D%2522%252Fassests%252Fimages%252FAvatar.jpg%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-title-box%2520overlay%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520medium%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-subtitle%2520medium%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2520overlay-content%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-actions%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2522%253ERead%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2522%253EBookMark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-share-fill%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-three-dots-vertical%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%2509%250A"
+                        style="width: 891px; height: 580px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+        
+                <p class="heading4 regular m8">Card with title above media</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-31" id="tab-31" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-32" id="tab-32" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-31" role="tabpanel" class="m10" aria-labelledby="tab-31">                    
+                        <div class="container">               
+                            <div class="card">          
+                                <div class="card-title-box">
+                                    <h2 class="card-title medium">Our Changing Planet</h2>
+                                    <h3 class="card-subtitle medium">by Kurt Wagner</h3>
+                                </div>
+                                <img class="card-img" src="/assests/images/lofi.jpg"> 
+                                <div class="card-content overlay-content">
+                                    Visit ten places on our planet that are undergoing the biggest changes today.
+                                </div>
+                                <div class="card-actions">
+                                    <div class="text-actions">
+                                        <button class="text-card-button">Read</button>
+                                        <button class="text-card-button">BookMark</button>
+                                    </div>
+                                    <div class="icon-actions">
+                                        <button class="icon-card-button"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-card-button"><i class="bi bi-share-fill"></i></button>
+                                        <button class="icon-card-button"><i class="bi bi-three-dots-vertical"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="panel-32" role="tabpanel" aria-labelledby="tab-32" hidden>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-dark&wt=none&l=htmlmixed&width=891&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-title-box%2520overlay%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520medium%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-subtitle%2520medium%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520card-img-border%2522%2520src%253D%2522%252Fassests%252Fimages%252Flofi.jpg%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2520overlay-content%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-actions%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2522%253ERead%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2522%253EBookMark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-share-fill%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-three-dots-vertical%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%2509%250A%2520%2520"
+                        style="width: 891px; height: 580px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+                
+                <p class="heading4 regular m8">Card with title and media </p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-41" id="tab-41" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-42" id="tab-42" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-41" role="tabpanel" class="m10" aria-labelledby="tab-41">                    
+                       <div class="container">               
+                            <div class="card card-box-shadow">          
+                                <div class="card-title-box middle-overlay">
+                                    <h2 class="heading4 text-center medium">Our Changing Planet </h2>
+                                </div>
+                                <img class="card-img card-img-all-borders" src="/assests/images/Avatar.jpg"> 
+                            </div>
+                            <div class="card ">          
+                                <div class="card-title-box middle-overlay">
+                                    <h2 class="heading4 text-center medium">Our Changing Planet is down forerver.</h2>
+                                </div>
+                                <img class="card-img card-img-all-borders" src="/assests/images/lofi.jpg"> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="panel-42" role="tabpanel" aria-labelledby="tab-42" hidden>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-dark&wt=none&l=htmlmixed&width=891&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520With%2520Box%2520Shadow%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-box-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-title-box%2520middle-overlay%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522heading4%2520text-center%2520medium%2522%253EOur%2520Changing%2520Planet%2520%253C%252Fh2%253E%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520card-img-all-borders%2522%2520src%253D%2522%252Fassests%252Fimages%252FAvatar.jpg%2522%253E%2520%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%253C%21--%2520With%2520default%2520Box%2520Outline%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-title-box%2520middle-overlay%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522heading4%2520text-center%2520medium%2522%253EOur%2520Changing%2520Planet%2520is%2520down%2520forerver.%253C%252Fh2%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520card-img-all-borders%2522%2520src%253D%2522%252Fassests%252Fimages%252Flofi.jpg%2522%253E%2520%250A%253C%252Fdiv%253E%2509%250A%2520%2520"
+                        style="width: 891px; height: 468px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <p class="heading4 regular m8">Disabled Card </p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-51" id="tab-51" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-52" id="tab-52" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-51" role="tabpanel" class="m10" aria-labelledby="tab-51">                    
+                       <div class="container">               
+                            <div class="card disabled-cover">
+                                <div class="disabled-label text4 medium text-center">Out Of Stock</div>
+                                <img class="card-img card-img-border" src="/assests/images/Avatar.jpg">                        
+                                <div class="card-title-box">
+                                    <h2 class="card-title medium">Our Changing Planet</h2>
+                                    <h3 class="card-subtitle medium">by Kurt Wagner</h3>
+                                </div>
+                                <div class="card-content">
+                                    Visit ten places on our planet that are undergoing the biggest changes today.
+                                </div>
+                                <div class="card-actions">
+                                    <div class="text-actions">
+                                        <button class="text-card-button cna">Read</button>
+                                        <button class="text-card-button cna">BookMark</button>
+                                    </div>
+                                    <div class="icon-actions">
+                                        <button class="icon-card-button cna"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-card-button cna"><i class="bi bi-share-fill"></i></button>
+                                        <button class="icon-card-button cna"><i class="bi bi-three-dots-vertical"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="panel-52" role="tabpanel" aria-labelledby="tab-52" hidden>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-dark&wt=none&l=htmlmixed&width=972&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520disabled-cover%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522disabled-label%2520text4%2520medium%2520text-center%2522%253EOut%2520Of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520card-img-border%2522%2520src%253D%2522%252Fassests%252Fimages%252FAvatar.jpg%2522%253E%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-title-box%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520medium%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-subtitle%2520medium%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-actions%2522%253E%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2520cna%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2520cna%2522%253EBookMark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-actions%2522%253E%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2520cna%2522%253E%253Ci%2520class%253D%2522bi%2520bi-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2520cna%2522%253E%253Ci%2520class%253D%2522bi%2520bi-share-fill%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2520cna%2522%253E%253Ci%2520class%253D%2522bi%2520bi-three-dots-vertical%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%250A%253C%252Fdiv%253E%250A"
+                        style="width: 925px; height: 598px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Horizontal Card Layout -->
+                <h3 id="horizontal" class="heading3 light">Horizontal Layout Cards </h3>
+                <p class="heading4 regular m8">Basic Short Card</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-61" id="tab-61" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-62" id="tab-62" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-61" role="tabpanel" class="m10" aria-labelledby="tab-61">                    
+                        <div class="container">               
+                            <div class="card card-box-shadow horizontal-short"> 
+                                <div class="card-body">                 
+                                    <img class="card-img horizontal-short-img card-h-img-border-tl" src="/assests/images/lofi.jpg"> 
+                                    <div class="card-title-box ">
+                                        <h2 class="card-title medium">Our Changing Planet</h2>
+                                        <h3 class="card-subtitle medium">by Kurt Wagner</h3>
+                                    </div>
+                                </div> 
+                                <div class="card-actions">
+                                    <div class="text-actions">
+                                        <button class="text-card-button">Read</button>
+                                        <button class="text-card-button">BookMark</button>
+                                    </div>
+                                    <div class="icon-actions">
+                                        <button class="icon-card-button"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-card-button"><i class="bi bi-share-fill"></i></button>
+                                        <button class="icon-card-button"><i class="bi bi-three-dots-vertical"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="panel-62" role="tabpanel" aria-labelledby="tab-62" hidden>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-dark&wt=none&l=htmlmixed&width=891&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-box-shadow%2520horizontal-short%2522%253E%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520horizontal-short-img%2520card-h-img-border-tl%2522%2520src%253D%2522%252Fassests%252Fimages%252Flofi.jpg%2522%253E%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title-box%2520%2522%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520medium%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-subtitle%2520medium%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2522%253EBookMark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-share-fill%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-three-dots-vertical%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%250A"
+                        style="width: 972px; height: 580px; border:0; transform: scale(1); overflow:scroll;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <p class="heading4 regular m8">Basic Medium Card</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-71" id="tab-71" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-72" id="tab-72" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-71" role="tabpanel" class="m10" aria-labelledby="tab-71">                    
+                       <div class="container">               
+                            <div class="card horizontal-medium"> 
+                                <img class="card-img horizontal-medium-img card-h-img-border-l" src="/assests/images/lofi.jpg"> 
+                                <div class="card-body horizontal-medium-content"> 
+                                    <div class="card-title-box">
+                                        <h2 class="card-title medium">Our Changing Planet</h2>
+                                        <h3 class="card-subtitle medium">by Kurt Wagner</h3>
+                                    </div>
+                                    <div class="card-content">
+                                        Visit ten places on our planet that are undergoing the biggest changes today.
+                                    </div>                                
+                                    <div class="card-actions">
+                                        <div class="text-actions">
+                                            <button class="text-card-button">Read</button>
+                                            <button class="text-card-button">BookMark</button>
+                                        </div>
+                                        <div class="icon-actions">
+                                            <button class="icon-card-button"><i class="bi bi-heart"></i></button>
+                                            <button class="icon-card-button"><i class="bi bi-share-fill"></i></button>
+                                            <button class="icon-card-button"><i class="bi bi-three-dots-vertical"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="panel-72" role="tabpanel" aria-labelledby="tab-72" hidden>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-dark&wt=none&l=htmlmixed&width=972&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal-medium%2522%253E%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520horizontal-medium-img%2520card-h-img-border-l%2522%2520src%253D%2522%252Fassests%252Fimages%252Flofi.jpg%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2520horizontal-medium-content%2522%253E%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520medium%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-subtitle%2520medium%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-actions%2522%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-card-button%2522%253EBookMark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-actions%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-share-fill%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-card-button%2522%253E%253Ci%2520class%253D%2522bi%2520bi-three-dots-vertical%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                        style="width: 972px; height: 598px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <p class="heading4 regular m8">Basic Large Card</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-81" id="tab-81" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-82" id="tab-82" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-81" role="tabpanel" class="m10" aria-labelledby="tab-81">                    
+                       <div class="container">               
+                            <div class="card horizontal-large"> 
+                                <img class="card-img horizontal-large-img card-h-img-border-l" src="/assests/images/lofi.jpg"> 
+                                <div class="card-body horizontal-large-content"> 
+                                    <div class="card-title-box">
+                                        <h2 class="card-title medium">Our Changing Planet</h2>
+                                        <h3 class="card-subtitle medium">by Kurt Wagner</h3>
+                                    </div>
+                                    <div class="card-content">
+                                        Visit ten places on our planet that are undergoing the biggest changes today.
+                                    </div>                                
+                                    <div class="card-actions h-large-action">
+                                        <button class="btn btn-primary outline h-large-btns" type="button"><i class="bi bi-cart3 inside-btn"></i>Add to Cart</button>
+                                        <button class="btn btn-primary outline h-large-btns" type="button"><i class="bi bi-cart3 inside-btn"></i>Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="panel-82" role="tabpanel" aria-labelledby="tab-82" hidden>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-dark&wt=none&l=htmlmixed&width=972&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal-large%2522%253E%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520horizontal-large-img%2520card-h-img-border-l%2522%2520src%253D%2522%252Fassests%252Fimages%252Flofi.jpg%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2520horizontal-large-content%2522%253E%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2520medium%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-subtitle%2520medium%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2520h-large-action%2522%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520outline%2520h-large-btns%2522%2520type%253D%2522button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522bi%2520bi-cart3%2520inside-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520outline%2520h-large-btns%2522%2520type%253D%2522button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522bi%2520bi-cart3%2520inside-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Buy%2520Now%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                        style="width: 972px; height: 580px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </main>
+        </div>
+    
+    <script src="/documentation/script.js" ></script>
+</body>
+</html>
