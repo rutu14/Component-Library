@@ -77,3 +77,84 @@
 .m100{
     margin: 10rem;
 }
+
+/* Margin top */
+.m-t0{
+    margin-top: 0;
+}
+
+.m-t1{
+    margin-top: 0.1rem;
+}
+
+.m-t2{
+    margin-top: 0.2rem;
+}
+
+.m-t3{
+    margin-top: 0.3rem;
+}
+
+.m-t4{
+    margin-top: 0.4rem;
+}
+
+.m-t5{
+    margin-top: 0.5rem;
+}
+
+.m-t6{
+    margin-top: 0.6rem;
+}
+
+.m-t7{
+    margin-top: 0.7rem;
+}
+
+.m-t8{
+    margin-top: 0.8rem;
+}
+
+.m-t9{
+    margin-top: 0.9rem;
+}
+
+.m-t10{
+    margin-top: 1rem;
+}
+
+.m-t20{
+    margin-top: 2rem;
+}
+
+.m-t30{
+    margin-top: 3rem;
+}
+
+.m-t40{
+    margin-top: 4rem;
+}
+
+.m-t50{
+    margin-top: 5rem;
+}
+
+.m-t60{
+    margin-top: 6rem;
+}
+
+.m-t70{
+    margin-top: 7rem;
+}
+
+.m-t80{
+    margin-top: 8rem;
+}
+
+.m-t90{
+    margin-top: 9rem;
+}
+
+.m-t100{
+    margin-top: 10rem;
+}
