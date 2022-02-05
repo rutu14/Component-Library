@@ -31,7 +31,7 @@
                         <li class="listItem">
                             <a href="install.html"  class="listValue text4 ls"></i>Install</a>
                         </li>
-                        <li class="listItem">
+                        <li class="listItem  nav-active">
                             <a href="colour-scheme.html"  class="listValue text4 ls"></i>Colours</a>
                         </li>
                     </ul>
@@ -46,7 +46,7 @@
                     </ul>
                 <h3 class="heading4 medium">Components</h3>
                     <ul class="menu">
-                        <li class="listItem nav-active">
+                        <li class="listItem">
                              <a href="avatar.html"  class="listValue text4 ls">Avatar</a>
                         </li>
                         <li class="listItem">
@@ -99,71 +99,105 @@
                             <a href="#" class="listValue text4 ls"></i>Input</a>
                         </li>
                     </ul>
-                </nav>
+            </nav>
         </aside>
         <main class="maincontent">
-            <div id="avatarcomponent" >
-                <h1 class="heading2 medium">Avatar</h1>
-                <h4 class="text4 light">Avatars can be viewed in navigation bar or are present on user information pages.The matter inside can be image or text.</h4>
-        
-                <p class="heading4 regular m8">Text Avatar</p>
-                <div class="tabs">
-                    <div role="tablist" aria-label="Sample Tabs" >
-                        <button role="tab" aria-selected="true" aria-controls="panel-11" id="tab-11" class="tab-header cp heading4">
-                            Example
-                        </button>
-                        <button role="tab" aria-selected="false" aria-controls="panel-12" id="tab-12" class="tab-header cp heading4">
-                            Code
-                        </button>
+            <div id="alertcomponent" >
+                <h1 class="heading2 medium">Colour Scheme</h1>
+                <h4 class="text4 light">The colours are present with the associated names.</h4>
+                <div class="colour-grid m-t20">
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-primary"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Primary</h2>
+                            <h3 class="text4 regular">#E26C6D</h3>
+                        </section>                        
                     </div>
-                    <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">                    
-                            <div  class="container">
-                                <div class="avatar avatar-text text-sm">RL</div>
-                        
-                                <div class="avatar avatar-text text-md">RL</div>
-                        
-                                <div class="avatar avatar-text text-lg ">RL</div>
-                        
-                                <div class="avatar avatar-text text-xl ">RL</div> 
-                            </div>
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-secondary"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Secondary</h2>
+                            <h3 class="text4 regular">#798897</h3>
+                        </section> 
                     </div>
-                    <div id="panel-12" role="tabpanel" aria-labelledby="tab-12" hidden>
-                        <iframe class="carbon-script"
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.01%29&t=one-dark&wt=none&l=htmlmixed&width=584.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520text-sm%2522%253ERL%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520text-md%2522%253ERL%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520text-lg%2522%253ERL%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520text-xl%2522%253ERL%253C%252Fdiv%253E%250A"
-                        sandbox="allow-scripts allow-same-origin">
-                        </iframe>
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-tertiary"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Tertiary</h2>
+                            <h3 class="text4 regular">#FBF7FF</h3>
+                        </section> 
                     </div>
-                </div>
-        
-                <p class="heading4 regular m8">Image Avatar</p>
-        
-                <div class="tabs">
-                    <div role="tablist" aria-label="Sample Tabs">
-                        <button role="tab" aria-selected="true" aria-controls="panel-21" id="tab-21" class="tab-header cp heading4">
-                            Example
-                        </button>
-                        <button role="tab" aria-selected="false" aria-controls="panel-22" id="tab-22" class="tab-header cp heading4">
-                            Code
-                        </button>
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-quaternary"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Quaternary</h2>
+                            <h3 class="text4 regular">#FFFADE</h3>
+                        </section> 
                     </div>
-                    <div id="panel-21" role="tabpanel" class="m10" aria-labelledby="tab-21">                    
-                        <div class="container">
-                            <img class="avatar avatar-sm" src="/assests/images/boy.png" alt="Avatar">
-                
-                            <img class="avatar avatar-md" src="/assests/images/Avatar.jpg" alt="Avatar"> 
-                       
-                            <img class="avatar avatar-lg" src="/assests/images/lofi.jpg" alt="Avatar">       
-                
-                            <img class="avatar avatar-xl" src="/assests/images/shinchan.png" alt="Avatar">
-                        </div>        
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-white"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">White</h2>
+                            <h3 class="text4 regular">#ffffff</h3>
+                        </section> 
                     </div>
-                    <div id="panel-22" role="tabpanel" aria-labelledby="tab-22" hidden>
-                       <iframe class="carbon-script"
-                       src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.01%29&t=one-dark&wt=none&l=htmlmixed&width=823.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522assests%252Fimages%252Fboy.png%2522%2520alt%253D%2522Avatar%2522%253E%250A%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522assests%252Fimages%252FAvatar.jpg%2522%2520alt%253D%2522Avatar%2522%253E%250A%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522assests%252Fimages%252Flofi.jpg%2522%2520alt%253D%2522Avatar%2522%253E%2520%250A%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522assests%252Fimages%252Fshinchan.png%2522%2520alt%253D%2522Avatar%2522%253E%250A"
-                       sandbox="allow-scripts allow-same-origin">
-                        </iframe> 
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-black"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Black</h2>
+                            <h3 class="text4 regular">#070707</h3>
+                        </section> 
                     </div>
-                </div>
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-primary"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Primary</h2>
+                            <h3 class="text4 regular">#ffffff</h3>
+                        </section> 
+                    </div>
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-primary"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Primary</h2>
+                            <h3 class="text4 regular">#ffffff</h3>
+                        </section> 
+                    </div>
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-primary"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Primary</h2>
+                            <h3 class="text4 regular">#ffffff</h3>
+                        </section> 
+                    </div>
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-primary"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Primary</h2>
+                            <h3 class="text4 regular">#ffffff</h3>
+                        </section> 
+                    </div>
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-primary"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Primary</h2>
+                            <h3 class="text4 regular">#ffffff</h3>
+                        </section> 
+                    </div>
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-primary"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Primary</h2>
+                            <h3 class="text4 regular">#ffffff</h3>
+                        </section> 
+                    </div>
+                    <div class="colour-detail">                   
+                        <div class="colour-box colour-primary"></div>
+                        <section class="colour-name">
+                            <h2 class="text4 regular">Primary</h2>
+                            <h3 class="text4 regular">#ffffff</h3>
+                        </section> 
+                    </div>
+                </div>     
             </div>
         </main>
         </div>
