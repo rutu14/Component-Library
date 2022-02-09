@@ -19,28 +19,16 @@ code[class*=language-], pre[class*=language-] {
     border-radius: 1rem;
 }
 
-.code-toolbar .language-css,.code-toolbar .language-html {
-    color: var(--CODE-COMMENT);
-}
-
-.code-toolbar .language-css .token.atrule {
-    color: var(--CODE-ORANGE);
-}
-  
-.code-toolbar .language-css .token.function {
-    color: var(--CODE-BLUE);
-}
-  
-.code-toolbar .language-css .token.url {
-    color: var(--CODE-GREEN);
-}
-  
 .code-toolbar .language-markup {
     color: var(--code-content);
 }
   
 .code-toolbar .token.tag {
     color: var(--code-tag);
+}  
+
+.token.punctuation {
+    color: var(--code-tag);  
 }
 
 .code-toolbar .token.attr-name {
@@ -53,10 +41,6 @@ code[class*=language-], pre[class*=language-] {
 
 .code-syntax .code-toolbar .toolbar {
     opacity: 0.8; 
-}
-  
-.token.punctuation {
-    color: var(--code-tag);  
 }
 
 .toolbar .toolbar-item .copy-to-clipboard-button[data-copy-state="copy"] {
