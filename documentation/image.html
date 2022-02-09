@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">>
     <link rel="stylesheet" href="css/style.css">
     <title>Component-Library</title>
 </head>
@@ -36,7 +36,7 @@
                         </li>
                     </ul>
                 <h3 class="heading4 medium m-t5">Typography</h3>
-                    <ul>
+                    <ul >
                         <li class="listItem">
                             <a href="typography-heading.html"  class="listValue text4 ls">Headings</a>
                         </li>
@@ -52,8 +52,8 @@
                         <li class="listItem">
                              <a href="alert.html"  class="listValue text4 ls"></i>Alert</a>
                         </li>
-                        <li class="listItem nav-active">
-                            <a href="badge.html"   class="listValue text4 ls "></i>Badge</a>
+                        <li class="listItem">
+                            <a href="badge.html"   class="listValue text4 ls"></i>Badge</a>
                        </li>
                         <li class="listItem">
                              <a href="button.html"  class="listValue text4 ls">Button</a>
@@ -92,21 +92,20 @@
                              </ul>
                              <input type="radio" name="drop1down" id="drop1close" />                        
                         </li>
-                       <li class="listItem">
+                       <li class="listItem nav-active">
                         <a href="image.html" class="listValue text4 ls"></i>Image</a>
                         </li>
                         <li class="listItem">
                             <a href="input.html" class="listValue text4 ls"></i>Input</a>
                         </li>
                     </ul>
-                </nav>
+            </nav>
         </aside>
         <main class="maincontent">
-            <div id="badgecomponent" >
-                <h1 class="heading2 medium">Badge</h1>
-                <h4 class="text4 light">Badges can help in notifying the users of the action to be performed or in current use.</h4>
-        
-                <p class="heading4 regular m8">Badge on Icons</p>
+            <div id="alertcomponent">
+                <h1 class="heading2 medium">Image</h1>
+                <h4 class="text4 light"></h4>  
+                <p class="heading4 regular m8">Responsive Image</p>
                 <div class="tabs">
                     <div role="tablist" aria-label="Sample Tabs" >
                         <button role="tab" aria-selected="true" aria-controls="panel-11" id="tab-11" class="tab-header cp heading4">
@@ -117,33 +116,21 @@
                         </button>
                     </div>
                     <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">                    
-                            <div  class="container">
-        
-                                <button class="button-icon"><i class="bi bi-cart3"></i><span class="textButtonBadge">9</span></button>
-        
-                                <button class="button-icon"><i class="bi bi-cart"></i><span class="textButtonBadge">9</span></button>
-        
-                                <button class="button-icon"><i class="bi bi-bell"></i><span class="textButtonBadge">9</span></button>
-        
-                            </div>
-                    </div>
+                       <div class="container">      
+                           <img class="image-responsive border-basic" src="/assests/images/Avatar.jpg">                                                          
+                        </div>
+                    </div> 
                     <div id="panel-12" role="tabpanel" aria-labelledby="tab-12" hidden>
                         <div class="code-syntax">
-                            <script type="text/plain" class="line-numbers language-markup">
-<button class="button-icon"><i class="bi bi-cart3"></i><span class="textButtonBadge">9</span></button>
-        
-<button class="button-icon"><i class="bi bi-cart"></i><span class="textButtonBadge">9</span></button>
-        
-<button class="button-icon"><i class="bi bi-bell"></i><span class="textButtonBadge">9</span></button>        
+                            <script type="text/plain" class="language-markup">
+<img class="image-responsive border-basic" src="/assests/images/Avatar.jpg">
                             </script>
-                        </div> 
+                        </div>
                     </div>
-                </div>
-        
-                <p class="heading4 regular m8">Badge on Avatar</p>
-        
+                </div>  
+                <p class="heading4 regular m8">Round Image</p>
                 <div class="tabs">
-                    <div role="tablist" aria-label="Sample Tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
                         <button role="tab" aria-selected="true" aria-controls="panel-21" id="tab-21" class="tab-header cp heading4">
                             Example
                         </button>
@@ -152,54 +139,24 @@
                         </button>
                     </div>
                     <div id="panel-21" role="tabpanel" class="m10" aria-labelledby="tab-21">                    
-                        <div class="container">
-                            <div class="avatar badge-ic avatar-text text-sm">
-                                <span class="avatar-badge badge-sm"></span>
-                                RL
-                            </div>
-        
-                            <div class="avatar badge-ic avatar-text text-md">
-                                <span class="avatar-badge badge-md"></span>
-                                RL
-                            </div>
-                            
-                            <div class="avatar badge-ic avatar-text text-lg">
-                                <span class="avatar-badge badge-lg"></span>
-                                RL
-                            </div>
-        
-                            <div class="avatar badge-ic avatar-text text-xl">
-                                <span class="avatar-badge badge-xl"></span>
-                                RL
-                            </div>        
-                        </div>        
-                    </div>
+                       <div class="container">      
+                            <img class="image-round round-sm border-basic" src="/assests/images/Avatar.jpg">                                             
+                            <img class="image-round round-md border-basic" src="/assests/images/Avatar.jpg">                                             
+                            <img class="image-round round-lg border-basic" src="/assests/images/shinchan.png">                                                          
+                        </div>
+                    </div> 
                     <div id="panel-22" role="tabpanel" aria-labelledby="tab-22" hidden>
                         <div class="code-syntax">
                             <script type="text/plain" class="line-numbers language-markup">
-<div class="avatar badge-ic avatar-text text-sm">
-    <span class="avatar-badge badge-sm"></span>
-    RL
-</div>
-            
-<div class="avatar badge-ic avatar-text text-md">
-    <span class="avatar-badge badge-md"></span>
-    RL
-</div>
-                                
-<div class="avatar badge-ic avatar-text text-lg">
-    <span class="avatar-badge badge-lg"></span>
-    RL
-</div>
-            
-<div class="avatar badge-ic avatar-text text-xl">
-    <span class="avatar-badge badge-xl"></span>
-    RL
-</div>
+<img class="image-round round-sm border-basic" src="/assests/images/Avatar.jpg">  
+
+<img class="image-round round-md border-basic" src="/assests/images/Avatar.jpg"> 
+
+<img class="image-round round-lg border-basic" src="/assests/images/shinchan.png"> 
                             </script>
-                        </div> 
+                        </div>  
                     </div>
-                </div>
+                </div>               
             </div>
         </main>
         </div>    

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Component-Library</title>
+</head>
+<body class="documentation">
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="heading2 medium"></h1>      
+            <div class="header-nav m10">
+                <nav>
+                    <ul>
+                      <li><a href="/index.html" class="text4 text-link">Home</a></li>
+                      <li><a href="#" class="text4 text-link header-active">Documentation</a></li>
+                    </ul>
+                </nav>
+                <div class="account-links">
+                    <a href="#" class="icon-button"><i class="bi bi-github"></i></a>
+                    <a href="#" class="icon-button"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+         </header>
+        <aside class="sidebar">
+            <nav>
+                <h3 class="heading4 medium">Usage</h3>
+                    <ul>
+                        <li class="listItem">
+                            <a href="install.html"  class="listValue text4 ls"></i>Install</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="colour-scheme.html"  class="listValue text4 ls"></i>Colours</a>
+                        </li>
+                    </ul>
+                <h3 class="heading4 medium m-t5">Typography</h3>
+                    <ul >
+                        <li class="listItem">
+                            <a href="typography-heading.html"  class="listValue text4 ls">Headings</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="typography-text.html"  class="listValue text4 ls"></i>Text</a>
+                        </li>
+                    </ul>
+                <h3 class="heading4 medium">Components</h3>
+                    <ul class="menu">
+                        <li class="listItem">
+                             <a href="avatar.html"  class="listValue text4 ls">Avatar</a>
+                        </li>
+                        <li class="listItem">
+                             <a href="alert.html"  class="listValue text4 ls"></i>Alert</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="badge.html"   class="listValue text4 ls"></i>Badge</a>
+                       </li>
+                        <li class="listItem">
+                             <a href="button.html"  class="listValue text4 ls">Button</a>
+                             <input type="radio" name="dropdown" id="dropopen" />     
+                             <label class="closer cp m10" for="dropclose"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="dropopen"><i class="bi bi-chevron-down"></i></label>                        
+                             <ul>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#primarybuttons"  class="listMenuValue" >Primary Buttons</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#linkbutton"  class="listMenuValue">Link Button</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#iconbutton"  class="listMenuValue">Icon Button</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                    <a href="button.html#floatingbutton"  class="listMenuValue">Floating Button</a>
+                                </li>
+                             </ul>
+                             <input type="radio" name="dropdown" id="dropclose" /> 
+                        </li>
+                        <li class="listItem">
+                             <a href="card.html" class="listValue text4 ls">Card</a>
+                             <input type="radio" name="drop1down" id="drop1open" />     
+                             <label class="closer cp m10" for="drop1close"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="drop1open"><i class="bi bi-chevron-down"></i></label>                        
+                             <ul>
+                                 <li class="listMenuItem">
+                                     <a href="card.html#vertical" class="listMenuValue">Vertical Layout</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="card.html#horizontal" class="listMenuValue">Horizontal Layout</a>
+                                 </li>
+                                 
+                             </ul>
+                             <input type="radio" name="drop1down" id="drop1close" />                        
+                        </li>
+                       <li class="listItem">
+                        <a href="image.html" class="listValue text4 ls"></i>Image</a>
+                        </li>
+                        <li class="listItem nav-active">
+                            <a href="input.html" class="listValue text4 ls"></i>Input</a>
+                        </li>
+                    </ul>
+            </nav>
+        </aside>
+        <main class="maincontent">
+            <div id="alertcomponent">
+                <h1 class="heading2 medium">Input Fields</h1>
+                <h4 class="text4 light">Input fields allow users to enter required text.</h4>  
+                <p class="heading4 regular m8">Input Box</p>
+                <p class="text4 light">To increase the size of the input box, put a custom class with width set as auto.</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-11" id="tab-11" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-12" id="tab-12" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">                    
+                       <div class="container-input">              
+
+                            <label for="text-input" class="text4 m-t10">Name</label>
+                            <input id="text-input" class="text-input" type="text" />
+                        
+                            <!-- Label on input box -->
+                            <label for="password-input" class="text4 m-t10 label-on-input">Password</label>
+                            <input id="password-input" class="text-input" type="text" />
+
+                            <!-- Helper text on input box -->
+                            <label for="phone-input" class="text4 m-t10 label-on-input">Phone</label>
+                            <input id="phone-input" class="text-input" type="tel" required/>
+                            <p class="input-msg ">Helper text is displayed over here.</p>
+                        
+                            <!-- Error on input box -->
+                            <label for="email-input" class="text4  m-t10">Email</label>
+                            <input id="email-input" class="text-input error" type="email" required/>
+                            <p class="input-msg error-msg">Error is displayed over here.</p>
+
+                        </div>
+                    </div> 
+                    <div id="panel-12" role="tabpanel" aria-labelledby="tab-12" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<label for="text-input" class="text4 m-t10">Name</label>
+<input id="text-input" class="text-input" type="text" />
+                        
+<!-- Label on input box -->
+<label for="password-input" class="text4 m-t10 label-on-input">Password</label>
+<input id="password-input" class="text-input" type="text" />
+
+<!-- Helper text on input box -->
+<label for="phone-input" class="text4 m-t10 label-on-input">Phone</label>
+<input id="phone-input" class="text-input" type="tel" required/>
+<p class="input-msg ">Helper text is displayed over here.</p>
+                        
+<!-- Error on input box -->
+<label for="email-input" class="text4  m-t10">Email</label>
+<input id="email-input" class="text-input error" type="email" required/>
+<p class="input-msg error-msg">Error is displayed over here.</p>
+                            </script>
+                        </div>   
+                    </div>
+                </div>  
+                
+                <p class="heading4 regular m8">Radio and CheckBox</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-21" id="tab-21" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-22" id="tab-22" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-21" role="tabpanel" class="m10" aria-labelledby="tab-21">                    
+                       <div class="container">       
+                            <div>
+                                <input id="check" type="checkbox" class="checkbox">
+                                <label for="check">Checkbox</label>
+                            </div>                             
+                            <div>
+                                <input id="radio1" type="radio" class="radiobtn" name="radio" value="1">
+                                <label for="radio1">Radio Value 1</label>                        
+                        
+                                <input id="radio2" type="radio" class="radiobtn" name="radio" value="2" checked>
+                                <label for="radio2">Radio Value 2</label>
+                            </div>                                                    
+                            <div>
+                                <input id="switch" type="checkbox" class="checkbox switch">
+                                <label for="switch">Switch</label> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="panel-22" role="tabpanel" aria-labelledby="tab-22" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<input id="check" type="checkbox" class="checkbox">
+<label for="check">Checkbox</label>
+
+<input id="radio1" type="radio" class="radiobtn" name="radio" value="1">
+<label for="radio1">Radio Value 1</label>                        
+                        
+<input id="radio2" type="radio" class="radiobtn" name="radio" value="2" checked>
+<label for="radio2">Radio Value 2</label>
+
+<input id="switch" type="checkbox" class="checkbox switch">
+<label for="switch">Switch</label> 
+                            </script>
+                        </div>  
+                    </div>
+                </div>        
+
+                <p class="heading4 regular m8">InputBox with Icon Buttons</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-31" id="tab-31" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-32" id="tab-32" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-31" role="tabpanel" class="m10" aria-labelledby="tab-31">                    
+                       <div class="container-input">      
+                            <div class="input-grp" id="searchform">
+                                <input type="text" id="searchterm" class="input-grp-right text-input" />
+                                <button class="icon-button input-grp-btn btn-right"><i class="bi bi-search"></i></button>
+                            </div>
+
+                            <div class="input-grp m-t20" id="searchform">
+                                <button class="icon-button input-grp-btn btn-left"><i class="bi bi-search"></i></button>
+                                <input type="text" id="searchterm" class="input-grp-left text-input" />
+                            </div>                           
+                        </div>
+                    </div> 
+                    <div id="panel-32" role="tabpanel" aria-labelledby="tab-32" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<div class="input-grp" id="searchform">
+    <input type="text" id="searchterm" class="input-grp-right text-input" />
+    <button class="icon-button input-grp-btn btn-right"><i class="bi bi-search"></i></button>
+</div>
+    
+<div class="input-grp" id="searchform">
+    <button class="icon-button input-grp-btn btn-left"><i class="bi bi-search"></i></button>
+    <input type="text" id="searchterm" class="input-grp-left text-input" />
+</div>    
+                            </script>
+                        </div>   
+                    </div>
+                </div>  
+
+                <p class="heading4 regular m8">InputBox with Icons</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-41" id="tab-41" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-42" id="tab-42" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-41" role="tabpanel" class="m10" aria-labelledby="tab-41">                    
+                       <div class="container-input">      
+                            <div class="input-grp m-t20" id="searchform">
+                                <input type="text" id="searchterm" class="input-grp-right text-input" />
+                                <span class="icon-ip icon-right"><i class="bi bi-search"></i></span>
+                            </div>
+
+                            <div class="input-grp m-t20" id="searchform">
+                                <span class="icon-ip icon-left"><i class="bi bi-search"></i></span>
+                                <input type="text" id="searchterm" class="input-grp-left text-input" />
+                            </div>                              
+                        </div>
+                    </div> 
+                    <div id="panel-42" role="tabpanel" aria-labelledby="tab-42" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<div class="input-grp" id="searchform">
+    <input type="text" id="searchterm" class="input-grp-right text-input" />
+    <span class="icon-ip icon-right"><i class="bi bi-search"></i></span>
+</div>
+    
+<div class="input-grp" id="searchform">
+    <span class="icon-ip icon-left"><i class="bi bi-search"></i></span>
+    <input type="text" id="searchterm" class="input-grp-left text-input" />
+</div> 
+                            </script>
+                        </div>   
+                    </div>
+                </div>  
+            </div>
+        </main>
+        </div>    
+    <script src="/documentation/js/script.js"></script> 
+    <script src="/documentation/js/prism.js" ></script>
+</body>
+</html>

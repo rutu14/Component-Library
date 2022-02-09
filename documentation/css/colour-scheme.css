@@ -1,0 +1,48 @@
+.colour-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+    gap: 2rem;
+}
+
+.colour-detail{    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem;
+}
+
+.colour-box{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.colour-name{
+    padding: 0 1rem;
+}
+
+.colour-primary{
+    background-color: var(--primary-colour);
+}
+
+.colour-secondary{
+    background-color: var(--secondary-colour);
+}
+
+.colour-tertiary{
+    background-color: var(--tertiary-colour);
+}
+
+.colour-quaternary{
+    background-color: var(--quaternary-colour);
+}
+
+.colour-white{
+    background-color: var(--white);
+}
+
+.colour-black{
+    background-color: var(--black);
+}

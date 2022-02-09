@@ -1,16 +1,86 @@
 @import url(/components/component.css);
+@import url(prism-custom.css);
+@import url(colour-scheme.css);
+@import url(scrollbar.css);
 
 :root{
     --link-hover: #f5efef8a;
     --link-text-color: #000000de;
     --link-active: #d6d3ed7a;
+
+    --PRIMARY-P5: #000063;
+  --PRIMARY-P4: #00007c;
+  --PRIMARY-P3: #150096;
+  --PRIMARY-P2: #2e13af;
+  --PRIMARY-P1: #482dc9;
+  --PRIMARY: #6146e2;
+  --PRIMARY-M1: #7b60fc;
+  --PRIMARY-M2: #9479ff;
+  /* --primary-colour: #ae93ff; */
+  --PRIMARY-M4: #c7acff;
+  --PRIMARY-M5: #e0c5ff;
+
+  --PRIMARY-BG: #f6edff;
+  --BG: #ffffff;
+
+  --VARIANT-1BG: #fff3e8;
+  --VARIANT-1M1: #ffdacf;
+  --VARIANT-1: #f7c0b5;
+  --VARIANT-1P1: #f4afa1;
+  --VARIANT-1-TXT-BG: #f45b19;
+
+  --VARIANT-2BG: #e8ffff;
+--copy-success-bg: #cffcf6;
+  --VARIANT-2: #b5e2dc;
+  --VARIANT-2P1: #a6dcd5;
+  --VARIANT-2-TXT-BG: #1a8d1a;
+
+  --VARIANT-3BG: #ffffdf;
+  --VARIANT-3M1: #fff4ac;
+  --VARIANT-3: #f4da92;
+--copy-bg: #f2d380;
+  --VARIANT-3-TXT-BG: #ed9f3a;
+
+  --WHITE: #ffffff;
+  --WHITE-C: #ffffffcc;
+  --WHITE-A: #ffffffaa;
+
+  --SHADE1: #f7f5f5;
+  --SHADE2: #f0f0f0;
+  --SHADE3: #e0e0e0;
+  --SHADE4: #d0d0d0;
+
+  --BLACK: #000000;
+  --BLACK-C: #000000cc;
+  --BLACK-A: #000000aa;
+  --BLACK-BG: #232128;
+
+  --copy-error-bg: #f088a3;
+
+  --CARBON: #2d2b55;
+
+  --CODE-ORANGE: #ff9d00;
+  --CODE-BLUE: #9effff;
+  --CODE-GREEN: #a5ff90;
+  --CODE-COMMENT: #b362ff;
+
+  --INPUT-W: red;
+  --INPUT-R: green;
+
+  --code-syntax-bg:#282c34; 
+  --code-content:#dde8fc;
+  --code-tag:#e06c75;
+  --code-attr-name:#d19a66;
+  --code-attr-value:#98c379;
+
+  --scrollbar:#888;
+  --scrollbar-hover:#555;
 }
 
 .documentation{
     max-height: 100vh;
     max-width:100vw;
     scrollbar-gutter: stable both-edges;
-    /* overflow: hidden; */
 }
 
 .wrapper{
@@ -177,84 +247,12 @@
     align-items: center;
 }
 
-.carbon-script{
-    display: block;
-    min-width: 80vw;
-    min-height: 55vh;
-    border: none;
-    margin: 0 auto;
-    transform: scale(1);
+.container-input{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 300px;
 }
 
 .img-view{
     border: 0.1rem solid black;
-}
-
-.colour-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);    
-    gap: 2rem;
-}
-
-.colour-detail{    
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    padding: 1rem;
-}
-
-.colour-box{
-    height: 5rem;
-    width: 5rem;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
-.colour-name{
-    padding: 0 1rem;
-}
-
-.colour-primary{
-    background-color: var(--primary-colour);
-}
-
-.colour-secondary{
-    background-color: var(--secondary-colour);
-}
-
-.colour-tertiary{
-    background-color: var(--tertiary-colour);
-}
-
-.colour-quaternary{
-    background-color: var(--quaternary-colour);
-}
-
-.colour-white{
-    background-color: var(--white);
-}
-
-.colour-black{
-    background-color: var(--black);
-}
-
-*::-webkit-scrollbar {
-    width: 16px;
-}
-
-*::-webkit-scrollbar-track {
-    border-radius: 8px;
-}
-
-*::-webkit-scrollbar-thumb {
-    height: 56px;
-    border-radius: 8px;
-    border: 4px solid transparent;
-    background-clip: content-box;
-    background-color: #888;
-}
-
-*::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
 }
