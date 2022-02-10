@@ -3,6 +3,7 @@
     border-radius: 4px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     outline: 1px solid var(--secondary-colour);
 }
 
