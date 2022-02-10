@@ -195,9 +195,9 @@
 .container-input{
     display: flex;
     flex-direction: column;
-    padding: 0px 300px;
+    padding: 0px 30rem;
 }
 
 .img-view{
-    border: 0.1rem solid black;
+    border: 0.1rem solid var(--black);
 }
