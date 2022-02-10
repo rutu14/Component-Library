@@ -14,7 +14,6 @@
     display: inline-block;
 }
 
-.image-responsive{
-    width: 100%;
-    height: auto;
+.border-basic{
+    border: 1px solid var(--black);
 }
