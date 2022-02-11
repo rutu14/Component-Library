@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/components/snackbar.css">
+    <title>Component-Library</title>
+</head>
+<body class="documentation">
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="heading2 medium"></h1>      
+            <div class="header-nav m10">
+                <nav>
+                    <ul>
+                      <li><a href="/index.html" class="text4 text-link">Home</a></li>
+                      <li><a href="#" class="text4 text-link header-active">Documentation</a></li>
+                    </ul>
+                </nav>
+                <div class="account-links">
+                    <a href="#" class="icon-button"><i class="bi bi-github"></i></a>
+                    <a href="#" class="icon-button"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+         </header>
+        <aside class="sidebar">
+            <nav>
+                <h3 class="heading4 medium">Usage</h3>
+                    <ul>
+                        <li class="listItem">
+                            <a href="install.html"  class="listValue text4 ls"></i>Install</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="colour-scheme.html"  class="listValue text4 ls"></i>Colours</a>
+                        </li>
+                    </ul>
+                <h3 class="heading4 medium m-t5">Typography</h3>
+                    <ul >
+                        <li class="listItem">
+                            <a href="typography-heading.html"  class="listValue text4 ls">Headings</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="typography-text.html"  class="listValue text4 ls"></i>Text</a>
+                        </li>
+                    </ul>
+                <h3 class="heading4 medium">Components</h3>
+                    <ul class="menu">
+                        <li class="listItem">
+                             <a href="avatar.html"  class="listValue text4 ls">Avatar</a>
+                        </li>
+                        <li class="listItem">
+                             <a href="alert.html"  class="listValue text4 ls"></i>Alert</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="badge.html"   class="listValue text4 ls"></i>Badge</a>
+                       </li>
+                        <li class="listItem">
+                             <a href="button.html"  class="listValue text4 ls">Button</a>
+                             <input type="radio" name="dropdown" id="dropopen" />     
+                             <label class="closer cp m10" for="dropclose"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="dropopen"><i class="bi bi-chevron-down"></i></label>                        
+                             <ul>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#primarybuttons"  class="listMenuValue" >Primary Buttons</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#linkbutton"  class="listMenuValue">Link Button</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#iconbutton"  class="listMenuValue">Icon Button</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                    <a href="button.html#floatingbutton"  class="listMenuValue">Floating Button</a>
+                                </li>
+                             </ul>
+                             <input type="radio" name="dropdown" id="dropclose" /> 
+                        </li>
+                        <li class="listItem">
+                             <a href="card.html" class="listValue text4 ls">Card</a>
+                             <input type="radio" name="drop1down" id="drop1open" />     
+                             <label class="closer cp m10" for="drop1close"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="drop1open"><i class="bi bi-chevron-down"></i></label>                        
+                             <ul>
+                                 <li class="listMenuItem">
+                                     <a href="card.html#vertical" class="listMenuValue">Vertical Layout</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="card.html#horizontal" class="listMenuValue">Horizontal Layout</a>
+                                 </li>
+                                 
+                             </ul>
+                             <input type="radio" name="drop1down" id="drop1close" />                        
+                        </li>
+                       <li class="listItem">
+                            <a href="image.html" class="listValue text4 ls"></i>Image</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="input.html" class="listValue text4 ls"></i>Input</a>
+                        </li>     
+                        <li class="listItem nav-active ">                                                                                              <li class="listItem">
+                            <a href="snackbar.html" class="listValue text4 ls"></i>Snackbar</a>
+                        </li>                                                      
+                        <li class="listItem">
+                            <a href="grid.html" class="listValue text4 ls"></i>Grid</a>
+                        </li>
+                    </ul>
+            </nav>
+        </aside>
+        <main class="maincontent">
+            <div id="alertcomponent">
+                <h1 class="heading2 medium">Snackar</h1>
+                <h4 class="text4 light"></h4>  
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-11" id="tab-11" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-12" id="tab-12" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">                    
+                       <div class="container">      
+                            <div class="snackbar">
+                                <span class="snackbar-text">Can't send photo. Retry in 5 seconds.</span>
+                                <div class="snackbar-actions">
+                                    <button class="btn text-card-button text-uppercase medium cp">Retry</button>
+                                    <button class="icon-card-button cp"><i class="bi bi-x"></i></button>
+                                </div>
+                            </div>                                                        
+                        </div>
+                    </div> 
+                    <div id="panel-12" role="tabpanel" aria-labelledby="tab-12" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="language-markup">
+<div class="snackbar">
+    <span class="snackbar-text">Can't send photo. Retry in 5 seconds.</span>
+    <div class="snackbar-actions">
+        <button class="btn text-card-button text-uppercase medium cp">Retry</button>
+        <button class="icon-card-button cp"><i class="bi bi-x"></i></button>
+    </div>
+</div>
+                            </script>
+                        </div>
+                    </div>
+                </div>  
+                <p class="heading4 regular m8">Grid with 3 columns</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-21" id="tab-21" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-22" id="tab-22" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-21" role="tabpanel" class="m10" aria-labelledby="tab-21">                    
+                       <div class="container">      
+                            <div class="snackbar">
+                                <span class="snackbar-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi vero repudiandae eius minus sunt doloribus corporis, amet quae beatae excepturi, dolor, error perspiciatis quibusdam repellat rem voluptate reiciendis tempore explicabo.</span>
+                                <div class="snackbar-actions">
+                                    <button class="btn text-card-button text-uppercase medium cp">Retry</button>
+                                    <button class="icon-card-button cp"><i class="bi bi-x"></i></button>
+                                </div>
+                            </div>
+                       </div>
+                    </div> 
+                    <div id="panel-22" role="tabpanel" aria-labelledby="tab-22" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<div class="snackbar">
+    <span class="snackbar-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi vero repudiandae eius minus sunt doloribus corporis, amet quae beatae excepturi, dolor, error perspiciatis quibusdam repellat rem voluptate reiciendis tempore explicabo.</span>
+    <div class="snackbar-actions">
+        <button class="btn text-card-button text-uppercase medium cp">Retry</button>
+        <button class="icon-card-button cp"><i class="bi bi-x"></i></button>
+    </div>
+</div>
+                            </script>
+                        </div>  
+                    </div>
+                </div>  
+                <p class="text4 regular m5">
+                    Snackbars can be positioned on the screen with position set to absolute.
+                    <ol class="text4 regular m20">
+                        <li class="li-code"><code class="doc-code">top-left-position</code></li>
+                        <li class="li-code"><code class="doc-code">top-middle-position</code></li>
+                        <li class="li-code"><code class="doc-code">top-right-position</code></li>
+                        <li class="li-code"><code class="doc-code">bottom-left-position</code></li>
+                        <li class="li-code"><code class="doc-code">bottom-middle-position</code></li>
+                        <li class="li-code"><code class="doc-code">bottom-right-position</code></li>
+                    </ol>
+                </p>
+            </div>
+        </main>
+        </div>    
+    <script src="/documentation/js/script.js"></script> 
+    <script src="/documentation/js/prism.js" ></script>
+</body>
+</html>
