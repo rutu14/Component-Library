@@ -201,3 +201,22 @@
 .img-view{
     border: 0.1rem solid var(--black);
 }
+
+.grid-view{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0;
+}
+
+.grid-con{
+    width: 70rem;
+    height: 30rem;
+}
+
+.doc-code{
+    background: #f0f5a2;
+    padding: 2px 4px;
+    border: 1px solid var(--warning-background);
+    border-radius: 4px;
+}
+
