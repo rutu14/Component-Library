@@ -18,6 +18,8 @@
     --copy-bg: #f2d380;
     --copy-error-bg: #f088a3;
 
+    --doc-code: #e9cccc;
+
     --scrollbar:#888;
     --scrollbar-hover:#555;
 }
@@ -213,10 +215,13 @@
     height: 30rem;
 }
 
+.li-code{
+    margin: 8px 0;
+}
+
 .doc-code{
-    background: #f0f5a2;
-    padding: 2px 4px;
+    background: var(--doc-code);
+    padding: 4px 4px;
     border: 1px solid var(--warning-background);
     border-radius: 4px;
 }
-
