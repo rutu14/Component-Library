@@ -1,6 +1,6 @@
 .btn{
     border: 0.1rem solid var(--black);
-    border-radius: 1rem;
+    border-radius: 4px;
     background-color: transparent;
     padding: 0 0.8rem;
     min-width: 6.4rem;
@@ -12,11 +12,10 @@
     border: none;
     background-color: var(--primary-colour);
     color: var(--tertiary-colour);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 3.6rem;
     font-weight: 500;
     letter-spacing: .0892857143px;
-    text-transform: uppercase;
     padding: 0 0.8rem;
 }
 
