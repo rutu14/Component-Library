@@ -84,10 +84,9 @@
     grid-area: main;
 }
 
-#avatarcomponent,#alertcomponent,
-#badgecomponent,#primarybuttons,
+#component,#primarybuttons,
 #linkbutton,#iconbutton,
-#floatingbutton,#cardcomponent{
+#floatingbutton{
     padding: 2rem 6rem 1rem;
 }
 
