@@ -75,38 +75,23 @@
 
 .text-card-button{
     color:var(--primary-colour);
-    background-color: transparent;
     font-size: 1.4rem;
     line-height: 3.6rem;
-    font-weight: 500;
-    letter-spacing: 1.4285714288px;
-    padding: 0 8px;
-    min-width: 64px;
+    letter-spacing: 1.42px;
     border: none;
-    cursor: pointer;
 }
 
 .text-card-button:hover{
     background-color: var(--btn-hover);
+    color: var(--black);
     border-radius: 0.5rem;
 }
 
 .icon-card-button{
     color: var(--secondary-colour);
     background-color: transparent;
-    border:0;
-    font-size: 1.4rem;
-    line-height: 3.6rem;
-    display: inline-flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    user-select: none;
-    overflow: visible;
-    vertical-align: middle;
-    border-radius: 4px;
-    font-size: 20px;
-    cursor: pointer;
+    border: 0;
+    font-size: 2rem;
 }
 
 .icon-card-button:hover{
