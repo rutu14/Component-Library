@@ -49,7 +49,7 @@
                         <li class="listItem">
                              <a href="avatar.html"  class="listValue text4 ls">Avatar</a>
                         </li>
-                        <li class="listItem nav-active">
+                        <li class="listItem">
                              <a href="alert.html"  class="listValue text4 ls"></i>Alert</a>
                         </li>
                         <li class="listItem">
@@ -97,25 +97,24 @@
                         </li>
                         <li class="listItem">
                             <a href="input.html" class="listValue text4 ls"></i>Input</a>
-                        </li>
+                        </li>                                                     
                         <li class="listItem">
                             <a href="snackbar.html" class="listValue text4 ls"></i>Snackbar</a>
-                        </li>                                                     
+                        </li>
                         <li class="listItem">
                             <a href="grid.html" class="listValue text4 ls"></i>Grid</a>
                         </li>
-                        <li class="listItem">
+                        <li class="listItem nav-active">
                             <a href="modal.html" class="listValue text4 ls"></i>Modal</a>
                         </li>
                     </ul>
             </nav>
         </aside>
         <main class="maincontent">
-            <div id="component" >
-                <h1 class="heading2 medium">Alert</h1>
-                <h4 class="text4 light">Alert can be used to show the current progress made through.</h4>
-        
-                <p class="heading4 regular m8">Progress based Alerts</p>
+            <div id="component">
+                <h1 class="heading2 medium">Modals</h1>
+                <h4 class="text4 light"></h4>
+                <p class="heading4 regular m8">Basic Modal </p>
                 <div class="tabs">
                     <div role="tablist" aria-label="Sample Tabs" >
                         <button role="tab" aria-selected="true" aria-controls="panel-11" id="tab-11" class="tab-header cp heading4">
@@ -126,84 +125,52 @@
                         </button>
                     </div>
                     <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">                    
-                       <div class="container-alert">
-                       
-                        <div class="alert alert-success">        
-                            <span class="alert-icon"><i class="bi bi-check2-circle"></i></span>
-                            <div class="alert-content ">
-                                <h1 class="alert-title">Alert Success Title</h1>
-                                <h4 class="alert-description">Alert Description Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                            </div>
-                        </div>
-                    
-                        <div class="alert alert-warning">        
-                            <span class="alert-icon"><i class="bi bi-exclamation-circle"></i></i></span>
-                            <div class="alert-content ">
-                                <h1 class="alert-title">Alert Warning Title</h1>
-                                <h4 class="alert-description">Alert Description Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                            </div>
-                        </div>
-                    
-                        <div class="alert alert-info">        
-                            <span class="alert-icon"><i class="bi bi-info-circle"></i></span>
-                            <div class="alert-content ">
-                                <h1 class="alert-title">Alert Info Title</h1>
-                                <h4 class="alert-description">Alert Description Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                            </div>
-                        </div>
-                    
-                        <div class="alert alert-error">        
-                            <span class="alert-icon"><i class="bi bi-x-circle"></i></span>
-                            <div class="alert-content ">
-                                <h1 class="alert-title">Alert Error Title</h1>
-                                <h4 class="alert-description">Alert Description Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                            </div>
-                        </div>
-                    </div> 
+                        <div class="container">
+                            <button class="btn text4 medium text-uppercase cp" data-open="modal-basic">
+                              Launch the modal 🚀
+                            </button>                          
+                           <div class="modal-backdrop" id="modal-basic">
+                                <div class="modal-dialog">
+                                    <button class="btn close-modal cp" data-close="modal-basic">✕</button>
+                                    <section class="modal-content text4 medium">
+                                        <h3 class="heading2 medium text-center">Welcome to the club✨</h3>
+                                        <h4 class="heading4 light text-center">
+                                            12% off first transaction.
+                                        <br>
+                                            Offer valid till 28th Feb 2022. 
+                                        </h4>
+                                    </section>
+                                </div>
+                            </div>                          
+                        </div> 
                     </div>
                     <div id="panel-12" role="tabpanel" aria-labelledby="tab-12" hidden>
                         <div class="code-syntax">
                             <script type="text/plain" class="line-numbers language-markup">
-<div class="alert alert-success">        
-    <span class="alert-icon"><i class="bi bi-check2-circle"></i></span>
-    <div class="alert-content ">
-        <h1 class="alert-title">Alert Success Title</h1>
-        <h4 class="alert-description">Alert Description Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+<button class="btn text4 medium text-uppercase cp" data-open="modal-basic">
+    Launch the modal
+</button>                          
+<div class="modal-backdrop" id="modal-basic">
+    <div class="modal-dialog">
+        <button class="btn close-modal cp" data-close="modal-basic">✕</button>
+        <section class="modal-content text4 medium">
+            <h3 class="heading2 medium text-center">Welcome to the club✨</h3>
+            <h4 class="heading4 light text-center">
+                12% off first transaction.
+            <br>
+                Offer valid till 28th Feb 2022. 
+            </h4>
+        </section>
     </div>
-</div>
-
-<div class="alert alert-warning">        
-    <span class="alert-icon"><i class="bi bi-exclamation-circle"></i></i></span>
-    <div class="alert-content ">
-        <h1 class="alert-title">Alert Warning Title</h1>
-        <h4 class="alert-description">Alert Description Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-    </div>
-</div>  
-
-<div class="alert alert-info">        
-    <span class="alert-icon"><i class="bi bi-info-circle"></i></span>
-    <div class="alert-content ">
-        <h1 class="alert-title">Alert Info Title</h1>
-        <h4 class="alert-description">Alert Description Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-    </div>
-</div>
-
-<div class="alert alert-error">        
-    <span class="alert-icon"><i class="bi bi-x-circle"></i></span>
-    <div class="alert-content ">
-        <h1 class="alert-title">Alert Error Title</h1>
-        <h4 class="alert-description">Alert Description Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-    </div>
-</div>
+</div> 
                             </script>
                         </div>
                     </div>
                 </div>
-                
-                <p class="heading4 regular m8">Other Alerts</p>
-        
+
+                <p class="heading4 regular m8">Modal With Header and Footer.</p>
                 <div class="tabs">
-                    <div role="tablist" aria-label="Sample Tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
                         <button role="tab" aria-selected="true" aria-controls="panel-21" id="tab-21" class="tab-header cp heading4">
                             Example
                         </button>
@@ -212,88 +179,99 @@
                         </button>
                     </div>
                     <div id="panel-21" role="tabpanel" class="m10" aria-labelledby="tab-21">                    
-                        <div class="container-alert">
-                            <div class="alert alert-info">
-                                <span class="alert-icon"><i class="bi bi-lightbulb"></i></span>
-                                <div class="alert-content ">            
-                                    <h1 class="alert-title">Alert Title</h1>
+                       <div class="container">
+                            <button class="btn text4 medium text-uppercase cp" data-open="modal-header-footer">
+                                Launch the modal 🚀
+                            </button>                          
+                            <div class="modal-backdrop" id="modal-header-footer">
+                                <div class="modal-dialog">
+                                    <button class="btn close-modal cp" data-close="modal-header-footer"> ✕ </button>
+                                    <header>
+                                        <h4 class="heading3 medium">The header of the modal</h4>                               
+                                    </header>
+                                    <hr class="divider">
+                                    <section class="modal-content text4 medium">
+                                        <p>Ways to close the modal:<br>
+                                            1. Press the cross btn on the RHS corner.<br>
+                                            2. Click on the black screen besides this modal. 
+                                        </p>
+                                        <br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+                                        <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure</p>
+                                    </section>
+                                    <hr class="divider">
+                                    <footer class="modal-footer">
+                                        <h4 class="heading3 medium">The footer of the modal</h4>
+                                    </footer>
                                 </div>
-                                <span class="alert-icon end-position cp"><i class="bi bi-x"></i></span>
-                            </div>     
-        
-                            <div class="alert">
-                                <div class="alert-content ">
-                                    <h1 class="alert-title">Alert Title</h1>
-                                </div>
-                            </div>
-        
-                            <div class="alert">
-                                <div class="alert-content ">
-                                    <h1 class="alert-title">Alert Title</h1>
-                                    <h4 class="alert-description">Alert Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit illo iusto saepe voluptas cumque temporibus, fugit totam tempora doloribus numquam officia commodi, est officiis quos quibusdam, doloremque dicta velit?</h4>
-                                </div>        
-                            </div>
-        
-                        </div>
+                          </div>                          
+                    </div> 
                     </div>
                     <div id="panel-22" role="tabpanel" aria-labelledby="tab-22" hidden>
                         <div class="code-syntax">
                             <script type="text/plain" class="line-numbers language-markup">
-<div class="alert alert-info">      
-    <span class="alert-icon"><i class="bi bi-lightbulb"></i></span>
-    <div class="alert-content ">
-        <h1 class="alert-title">Alert Title</h1>
+<button class="btn text4 medium text-uppercase cp" data-open="modal-header-footer">
+    Launch the modal
+</button>                          
+<div class="modal-backdrop" id="modal-header-footer">
+    <div class="modal-dialog">
+        <button class="btn close-modal cp" data-close="modal-header-footer"> ✕ </button>
+        <header>
+            <h4 class="heading3 medium">The header of the modal</h4>                               
+        </header>
+        <hr class="divider">
+        <section class="modal-content text4 medium">
+            <p>Ways to close the modal:<br>
+                1. Press the cross btn on the RHS corner.<br>
+                2. Click on the black screen besides this modal. 
+            </p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ea.</p>
+        </section>
+        <hr class="divider">
+        <footer class="modal-footer">
+            <h4 class="heading3 medium">The footer of the modal</h4>
+        </footer>
     </div>
-    <span class="alert-icon end-position cp"><i class="bi bi-x"></i></span>
-</div>
-                            
-<div class="alert">        
-    <div class="alert-content ">
-        <h1 class="alert-title">Alert Title</h1>
-    </div>
-</div>
-                            
-<div class="alert">        
-    <div class="alert-content ">
-        <h1 class="alert-title">Alert Title</h1>
-        <h4 class="alert-description">Alert Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit illo iusto saepe voluptas cumque temporibus, fugit totam tempora doloribus numquam officia commodi, est officiis quos quibusdam, doloremque dicta velit?</h4>
-    </div>
-</div>
+</div>        
                             </script>
                         </div>
                     </div>
                 </div>
-        
-                <h5 class="heading3 medium m8">Alerts Positions</h5>
-        
-                <p class="text4 regular m5">
-                    Alert can be positioned on the screen with position set to absolute.
-                    <ol class="text4 regular m20">
-                        <li >
-                            top-left-position
-                        </li>
-                        <li >
-                            top-middle-position
-                        </li>
-                        <li >
-                            top-right-position
-                        </li>
-                        <li >
-                            bottom-left-position
-                        </li>
-                        <li>
-                            bottom-middle-position
-                        </li>
-                        <li>
-                            bottom-right-position
-                        </li>
-                    </ol>
-                </p>
-                <img class="img-view image-responsive" src="/assests/images/Alert_Positions.png">
-            </div>
+
+                <p class="heading4 regular m8">Javascript for launching the modals.</p>
+                <div class="code-syntax outside-container">
+                    <script type="text/plain" class="line-numbers language-javascript">
+const openModal = document.querySelectorAll("[data-open]");
+const closeModal = document.querySelectorAll("[data-close]");
+                        
+for (const modalNumber of openModal) {
+    modalNumber.addEventListener("click", function() {
+        const modalOpenId = this.dataset.open; 
+        document.getElementById(modalOpenId).classList.add("modal-dialog-visible");
+    });
+}
+                        
+for (const modalNumber of closeModal) {
+    modalNumber.addEventListener("click", function() {
+        const modalCloseId = this.dataset.close; 
+        document.getElementById(modalCloseId).classList.remove("modal-dialog-visible");
+    });
+}
+                        
+document.addEventListener("click", e => {
+    if (e.target == document.querySelector(".modal-backdrop.modal-dialog-visible")) {
+        document.querySelector(".modal-backdrop.modal-dialog-visible").classList.remove("modal-dialog-visible");
+    }
+});
+                    </script>
+                </div>
+            </div>   
         </main>
         </div>
+    
     <script src="/documentation/js/script.js"></script> 
     <script src="/documentation/js/prism.js" ></script>
+    <script src="/documentation/js/modal.js" ></script>        
 </body>
 </html>

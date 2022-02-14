@@ -17,6 +17,12 @@
     --code-tag:#e06c75;
     --code-attr-name:#d19a66;
     --code-attr-value:#98c379;
+
+    --code-js: #e5c07b;
+    --code-js-keyword: #c678dd;
+    --code-js-operator: #56b6c2;
+    --code-js-function:#e06c75;
+    --code-js-string:#98c379;
     
     --copy-success-bg: #cffcf6; 
     --copy-bg: #f2d380;
