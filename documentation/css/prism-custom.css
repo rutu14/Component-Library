@@ -5,6 +5,10 @@
     margin: 2rem 4rem;
 }
 
+.outside-container{
+    margin: unset;
+}
+
 code[class*=language-], pre[class*=language-] {
     text-shadow: none;
     font-family: 'Montserrat';
@@ -37,6 +41,27 @@ code[class*=language-], pre[class*=language-] {
   
 .code-toolbar .token.attr-value {
     color:var(--code-attr-value);
+}
+
+.code-toolbar .language-javascript{
+    color: var(--code-js);
+}
+
+.code-toolbar .token.keyword{
+    color: var(--code-js-keyword);
+}
+
+.code-toolbar .token.operator{
+    color: var(--code-js-operator);
+    background:unset;
+}
+
+.code-toolbar .token.function{
+    color: var(--code-js-function);
+}
+
+.code-toolbar .token.string{
+    color: var(--code-js-string);
 }
 
 .code-syntax .code-toolbar .toolbar {
