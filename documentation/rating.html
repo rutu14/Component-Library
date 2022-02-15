@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Component-Library</title>
+</head>
+<body class="documentation">
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="heading2 medium"></h1>      
+            <div class="header-nav m10">
+                <nav>
+                    <ul>
+                      <li><a href="/index.html" class="text4 text-link">Home</a></li>
+                      <li><a href="#" class="text4 text-link header-active">Documentation</a></li>
+                    </ul>
+                </nav>
+                <div class="account-links">
+                    <a href="#" class="icon-button"><i class="bi bi-github"></i></a>
+                    <a href="#" class="icon-button"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+         </header>
+        <aside class="sidebar">
+            <nav>
+                <h3 class="heading4 medium">Usage</h3>
+                    <ul>
+                        <li class="listItem">
+                            <a href="install.html"  class="listValue text4 ls"></i>Install</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="colour-scheme.html"  class="listValue text4 ls"></i>Colours</a>
+                        </li>
+                    </ul>
+                <h3 class="heading4 medium m-t5">Typography</h3>
+                    <ul>
+                        <li class="listItem">
+                            <a href="typography-heading.html"  class="listValue text4 ls">Headings</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="typography-text.html"  class="listValue text4 ls"></i>Text</a>
+                        </li>
+                    </ul>
+                <h3 class="heading4 medium">Components</h3>
+                    <ul class="menu">
+                        <li class="listItem">
+                             <a href="avatar.html"  class="listValue text4 ls">Avatar</a>
+                        </li>
+                        <li class="listItem">
+                             <a href="alert.html"  class="listValue text4 ls"></i>Alert</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="badge.html"   class="listValue text4 ls"></i>Badge</a>
+                       </li>
+                        <li class="listItem">
+                             <a href="button.html"  class="listValue text4 ls">Button</a>
+                             <input type="radio" name="dropdown" id="dropopen" />     
+                             <label class="closer cp m10" for="dropclose"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="dropopen"><i class="bi bi-chevron-down"></i></label>                        
+                             <ul>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#primarybuttons"  class="listMenuValue" >Primary Buttons</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#linkbutton"  class="listMenuValue">Link Button</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#iconbutton"  class="listMenuValue">Icon Button</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                    <a href="button.html#floatingbutton"  class="listMenuValue">Floating Button</a>
+                                </li>
+                             </ul>
+                             <input type="radio" name="dropdown" id="dropclose" /> 
+                        </li>
+                        <li class="listItem">
+                             <a href="card.html" class="listValue text4 ls">Card</a>
+                             <input type="radio" name="drop1down" id="drop1open" />     
+                             <label class="closer cp m10" for="drop1close"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="drop1open"><i class="bi bi-chevron-down"></i></label>                        
+                             <ul>
+                                 <li class="listMenuItem">
+                                     <a href="card.html#vertical" class="listMenuValue">Vertical Layout</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="card.html#horizontal" class="listMenuValue">Horizontal Layout</a>
+                                 </li>
+                                 
+                             </ul>
+                             <input type="radio" name="drop1down" id="drop1close" />                        
+                        </li>
+                        <li class="listItem">
+                            <a href="image.html" class="listValue text4 ls"></i>Image</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="input.html" class="listValue text4 ls"></i>Input</a>
+                        </li>                                                     
+                        <li class="listItem">
+                            <a href="snackbar.html" class="listValue text4 ls"></i>Snackbar</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="grid.html" class="listValue text4 ls"></i>Grid</a>
+                        </li>
+                        <li class="listItem nav-active">
+                            <a href="modal.html" class="listValue text4 ls"></i>Modal</a>
+                        </li>
+                    </ul>
+            </nav>
+        </aside>
+        <main class="maincontent">
+            <div id="component">
+                <h1 class="heading2 medium">Ratings</h1>
+                <h4 class="text4 light"></h4>
+
+                <p class="heading4 regular m8">Star Ratings.</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-11" id="tab-11" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-12" id="tab-12" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">                    
+                        <div class="container">
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" />
+                                <label class="rating-label cp" for="star5" title="You have given 5 stars"></label>
+
+                                <input type="radio" id="star4" name="rating" value="4" />
+                                <label class="rating-label cp" for="star4" title="You have given 4 stars"></label>
+
+                                <input type="radio" id="star3" name="rating" value="3" />
+                                <label class="rating-label cp" for="star3" title="You have given 3 stars"></label>
+
+                                <input type="radio" id="star2" name="rating" value="2" />
+                                <label class="rating-label cp" for="star2" title="You have given 2 stars"></label>
+
+                                <input type="radio" id="star1" name="rating" value="1" />
+                                <label class="rating-label cp" for="star1" title="You have given 1 star"></label>
+                            </fieldset>                                       
+                        </div> 
+                    </div>
+                    <div id="panel-12" role="tabpanel" aria-labelledby="tab-12" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<fieldset class="rating">
+    <input type="radio" id="star5" name="rating" value="5" />
+    <label class="rating-label cp" for="star5" title="You have given 5 stars"></label>
+    
+    <input type="radio" id="star4" name="rating" value="4" />
+    <label class="rating-label cp" for="star4" title="You have given 4 stars"></label>
+    
+    <input type="radio" id="star3" name="rating" value="3" />
+    <label class="rating-label cp" for="star3" title="You have given 3 stars"></label>
+    
+    <input type="radio" id="star2" name="rating" value="2" />
+    <label class="rating-label cp" for="star2" title="You have given 2 stars"></label>
+    
+    <input type="radio" id="star1" name="rating" value="1" />
+    <label class="rating-label cp" for="star1" title="You have given 1 star"></label>
+</fieldset>
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="heading4 regular m8">Star Ratings with half fill.</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-21" id="tab-21" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-22" id="tab-22" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-21" role="tabpanel" class="m10" aria-labelledby="tab-21">                    
+                        <div class="container">
+                            <fieldset class="rating">
+                                <input type="radio" id="stars5" name="rating" value="5" />
+                                <label class="rating-label cp" for="stars5" title="You have given 5 stars"></label>
+
+                                <input type="radio" id="stars4half" name="rating" value="4.5" />
+                                <label class="rating-label half cp" for="stars4half" title="You have given 4.5 stars"></label>
+
+                                <input type="radio" id="stars4" name="rating" value="4" />
+                                <label class="rating-label cp" for="star4" title="You have given 4 stars"></label>
+
+                                <input type="radio" id="stars3half" name="rating" value="3.5" />
+                                <label class="rating-label half cp" for="stars3half" title="You have given 3.5 stars"></label>
+
+                                <input type="radio" id="stars3" name="rating" value="3" />
+                                <label class="rating-label cp" for="stars3" title="You have given 3 stars"></label>
+
+                                <input type="radio" id="stars2half" name="rating" value="2.5" />
+                                <label class="rating-label half cp" for="stars2half" title="You have given 2.5 stars"></label>
+
+                                <input type="radio" id="stars2" name="rating" value="2" />
+                                <label class="rating-label cp" for="stars2" title="You have given 2 stars"></label>
+
+                                <input type="radio" id="stars1half" name="rating" value="1.5" />
+                                <label class="rating-label half cp" for="stars1half" title="You have given 1.5 stars"></label>
+
+                                <input type="radio" id="stars1" name="rating" value="1" />
+                                <label class="rating-label cp" for="stars1" title="You have given 1 star"></label>
+
+                                <input type="radio" id="starshalf" name="rating" value="0.5" />
+                                <label class="rating-label half cp" for="starshalf" title="You have given 0.5 star"></label>
+                            </fieldset>                                       
+                        </div> 
+                    </div>
+                    <div id="panel-22" role="tabpanel" aria-labelledby="tab-22" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<fieldset class="rating">
+    <input type="radio" id="stars5" name="rating" value="5" />
+    <label class="rating-label cp" for="stars5" title="You have given 5 stars"></label>
+        
+    <input type="radio" id="stars4half" name="rating" value="4.5" />
+    <label class="rating-label half cp" for="stars4half" title="You have given 4.5 stars"></label>
+        
+    <input type="radio" id="stars4" name="rating" value="4" />
+    <label class="rating-label cp" for="star4" title="You have given 4 stars"></label>
+        
+    <input type="radio" id="stars3half" name="rating" value="3.5" />
+    <label class="rating-label half cp" for="stars3half" title="You have given 3.5 stars"></label>
+        
+    <input type="radio" id="stars3" name="rating" value="3" />
+    <label class="rating-label cp" for="stars3" title="You have given 3 stars"></label>
+        
+    <input type="radio" id="stars2half" name="rating" value="2.5" />
+    <label class="rating-label half cp" for="stars2half" title="You have given 2.5 stars"></label>
+        
+    <input type="radio" id="stars2" name="rating" value="2" />
+    <label class="rating-label cp" for="stars2" title="You have given 2 stars"></label>
+        
+    <input type="radio" id="stars1half" name="rating" value="1.5" />
+    <label class="rating-label half cp" for="stars1half" title="You have given 1.5 stars"></label>
+        
+    <input type="radio" id="stars1" name="rating" value="1" />
+    <label class="rating-label cp" for="stars1" title="You have given 1 star"></label>
+        
+    <input type="radio" id="starshalf" name="rating" value="0.5" />
+    <label class="rating-label half cp" for="starshalf" title="You have given 0.5 star"></label>
+</fieldset>                 
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="heading4 regular m8">Rating with different icons.</p>
+                <p class="text4 regular m8">To use the different icon, create a custom class for label [ EG: gift in following case ] and give the content property, the value of code point of the icon.</p>
+                <h4 class="text4 medium m8">Note: By default the font family for icon is bootstrap-icon. If you wish to choose other icon set, change the font family property and add the code point.</h4>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-31" id="tab-31" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-32" id="tab-32" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-31" role="tabpanel" class="m10" aria-labelledby="tab-31">                    
+                       <div class="container">
+                        <fieldset class="rating">
+                            <input type="radio" id="gift5" name="rating" value="5" />
+                            <label class="rating-label gift cp" for="gift5" title="Need of 5 gifts"></label>
+
+                            <input type="radio" id="gift4" name="rating" value="4" />
+                            <label class="rating-label gift cp" for="gift4" title="Need of 4 gifts"></label>
+
+                            <input type="radio" id="gift3" name="rating" value="3" />
+                            <label class="rating-label gift cp" for="gift3" title="Need of 3 gifts"></label>
+
+                            <input type="radio" id="gift2" name="rating" value="2" />
+                            <label class="rating-label gift cp" for="gift2" title="Need of 2 gifts"></label>
+
+                            <input type="radio" id="gift1" name="rating" value="1" />
+                            <label class="rating-label gift cp" for="gift1" title="Need of 1 gift"></label>
+                        </fieldset>                                 
+                    </div> 
+                    </div>
+                    <div id="panel-32" role="tabpanel" aria-labelledby="tab-32" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<fieldset class="rating">
+    <input type="radio" id="gift5" name="rating" value="5" />
+    <label class="rating-label gift cp" for="gift5" title="Need of 5 gifts"></label>
+        
+    <input type="radio" id="gift4" name="rating" value="4" />
+    <label class="rating-label gift cp" for="gift4" title="Need of 4 gifts"></label>
+        
+    <input type="radio" id="gift3" name="rating" value="3" />
+    <label class="rating-label gift cp" for="gift3" title="Need of 3 gifts"></label>
+        
+    <input type="radio" id="gift2" name="rating" value="2" />
+    <label class="rating-label gift cp" for="gift2" title="Need of 2 gifts"></label>
+        
+    <input type="radio" id="gift1" name="rating" value="1" />
+    <label class="rating-label gift cp" for="gift1" title="Need of 1 gift"></label>
+</fieldset> 
+                            </script>
+                            <script type="text/plain" class="line-numbers language-css">
+/* Custom CSS  */
+.gift:before{
+    content: '\F1CD';
+}
+                            </script>
+                        </div>
+                    </div>
+                </div>                
+            </div>   
+        </main>
+        </div>
+    
+    <script src="/documentation/js/script.js"></script> 
+    <script src="/documentation/js/prism.js" ></script>
+    <script src="/documentation/js/modal.js" ></script>        
+</body>
+</html>

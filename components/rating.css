@@ -1,0 +1,40 @@
+.rating { 
+    border: none;
+}
+  
+.rating > input { 
+    display: none; 
+} 
+  
+label { 
+    color: var(--disabled-inner); 
+    float: right; 
+}
+
+.rating-label:before { 
+    margin: 10px;
+    font-size: 3rem;
+    font-family: 'bootstrap-icons';
+    display: inline-block;
+    content: "\f586";
+}
+  
+.half:before { 
+    font-family: 'bootstrap-icons';
+    content: "\f587";
+    position: absolute;
+}
+  
+.rating > input:checked ~ label, .rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label { 
+    color: var(--rating-checked);  
+} 
+  
+.rating > input:checked + label:hover,.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, .rating > input:checked ~ label:hover ~ label { 
+    color: var(--rating-hover);  
+} 
+
+.gift:before{
+    content: '\F3EB';
+}
