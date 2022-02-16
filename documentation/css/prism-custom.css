@@ -65,11 +65,11 @@ code[class*=language-], pre[class*=language-] {
 }
 
 .code-toolbar .token.property{
-    color: #56b6c2;
+    color: var(--code-js-operator);
 }
 
 .code-toolbar .token.selector{
-    color: #d19a66;
+    color: var(--code-css-selector);
 }
 
 .language-css .token.string{
