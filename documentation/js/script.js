@@ -22,3 +22,9 @@ function changeTabs(e) {
       .querySelector(`#${target.getAttribute('aria-controls')}`)
       .removeAttribute('hidden');
   }
+
+/* Refresh button */
+
+const refreshbtn = document.querySelector(".refresh-btn");
+refreshbtn.addEventListener( 'click', refreshWindow );
+function refreshWindow () {location.reload();} 
