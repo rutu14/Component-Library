@@ -43,6 +43,9 @@
                         <li class="listItem">
                             <a href="typography-text.html"  class="listValue text4 ls"></i>Text</a>
                         </li>
+                        <li class="listItem">
+                            <a href="typography-helper.html"  class="listValue text4 ls"></i>Utilities</a>
+                        </li>
                     </ul>
                 <h3 class="heading4 medium">Components</h3>
                     <ul class="menu">
@@ -114,14 +117,44 @@
             </nav>
         </aside>
         <main class="maincontent">
+            <button class="icon-button refresh-btn"><i class="bi bi-arrow-clockwise"></i></button>
             <div id="component" >
                 <h1 class="heading2 medium">Headings</h1>
-                <h4 class="text4 light"></h4>
-        
+                <h3 class="text3 light">The font family used in the component Component-Library is Montserrat.</h3>
+                <h4 class="text4 regular m-t20">Write your content on clicking the text, to view your content in the heading size.</h4>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-11" id="tab-11" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-12" id="tab-12" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">                    
+                       <div class="container-typography">      
+                            <h1 contenteditable="true" class="heading1 medium edit-text">Everything you can imagine is real.</h1>       
+                            <h1 contenteditable="true" class="heading2 medium edit-text">Everything you can imagine is real.</h1>                                                
+                            <h1 contenteditable="true" class="heading3 medium edit-text">Everything you can imagine is real.</h1>
+                            <h1 contenteditable="true" class="heading4 medium edit-text">Everything you can imagine is real.</h1>
+                            <h1 contenteditable="true" class="heading5 medium edit-text">Everything you can imagine is real.</h1>
+                        </div>
+                    </div> 
+                    <div id="panel-12" role="tabpanel" aria-labelledby="tab-12" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<h1 class="heading1 medium">...</h1>       
+<h1 class="heading2 medium">...</h1>                                                
+<h1 class="heading3 medium">...</h1>
+<h1 class="heading4 medium">...</h1>
+<h1 class="heading5 medium">...</h1>
+                            </script>
+                        </div>
+                    </div>
+                </div>
             </div>   
         </main>
-        </div>
-    
+    </div>    
     <script src="/documentation/js/script.js"></script> 
     <script src="/documentation/js/prism.js" ></script>
 </body>

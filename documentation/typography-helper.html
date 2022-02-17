@@ -43,7 +43,7 @@
                         <li class="listItem">
                             <a href="typography-text.html"  class="listValue text4 ls"></i>Text</a>
                         </li>
-                        <li class="listItem">
+                        <li class="listItem nav-active">
                             <a href="typography-helper.html"  class="listValue text4 ls"></i>Utilities</a>
                         </li>
                     </ul>
@@ -107,7 +107,7 @@
                         <li class="listItem">
                             <a href="grid.html" class="listValue text4 ls"></i>Grid</a>
                         </li>
-                        <li class="listItem nav-active">
+                        <li class="listItem">
                             <a href="modal.html" class="listValue text4 ls"></i>Modal</a>
                         </li>
                         <li class="listItem">
@@ -117,10 +117,11 @@
             </nav>
         </aside>
         <main class="maincontent">
-            <div id="component">
-                <h1 class="heading2 medium">Modals</h1>
-                <h4 class="text4 light"></h4>
-                <p class="heading4 regular m8">Basic Modal </p>
+            <button class="icon-button refresh-btn"><i class="bi bi-arrow-clockwise"></i></button>
+            <div id="component" >
+                <h1 class="heading2 medium">Typography Utilities</h1>
+                <p class="heading4 medium m8">Font weight.</p>
+                <h4 class="text4 regular m8 m-t2">Write your content on clicking the text, to view your content for the font weight.</h4>
                 <div class="tabs">
                     <div role="tablist" aria-label="Sample Tabs" >
                         <button role="tab" aria-selected="true" aria-controls="panel-11" id="tab-11" class="tab-header cp heading4">
@@ -131,50 +132,34 @@
                         </button>
                     </div>
                     <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">                    
-                        <div class="container">
-                            <button class="btn text4 medium text-uppercase cp" data-open="modal-basic">
-                              Launch the modal 🚀
-                            </button>                          
-                           <div class="modal-backdrop" id="modal-basic">
-                                <div class="modal-dialog">
-                                    <button class="btn close-modal cp" data-close="modal-basic">✕</button>
-                                    <section class="modal-content text4 medium">
-                                        <h3 class="heading2 medium text-center">Welcome to the club✨</h3>
-                                        <h4 class="heading4 light text-center">
-                                            12% off first transaction.
-                                        <br>
-                                            Offer valid till 28th Feb 2022. 
-                                        </h4>
-                                    </section>
-                                </div>
-                            </div>                          
-                        </div> 
-                    </div>
+                       <div class="container-typography">      
+                        <p contenteditable="true" class="text3 black edit-text">And so the adventure begins.</p>       
+                        <p contenteditable="true" class="text3 bold edit-text">And so the adventure begins.</p>                                                
+                        <p contenteditable="true" class="text3 semi-bold edit-text">And so the adventure begins.</p>
+                        <p contenteditable="true" class="text3 medium edit-text">And so the adventure begins.</p>
+                        <p contenteditable="true" class="text3 regular edit-text">And so the adventure begins.</p>
+                        <p contenteditable="true" class="text3 light edit-text">And so the adventure begins.</p>
+                        <p contenteditable="true" class="text3 extra-light edit-text">And so the adventure begins.</p>
+                        <p contenteditable="true" class="text3 thin edit-text">And so the adventure begins.</p>
+                        </div>
+                    </div> 
                     <div id="panel-12" role="tabpanel" aria-labelledby="tab-12" hidden>
                         <div class="code-syntax">
                             <script type="text/plain" class="line-numbers language-markup">
-<button class="btn text4 medium text-uppercase cp" data-open="modal-basic">
-    Launch the modal
-</button>                          
-<div class="modal-backdrop" id="modal-basic">
-    <div class="modal-dialog">
-        <button class="btn close-modal cp" data-close="modal-basic">✕</button>
-        <section class="modal-content text4 medium">
-            <h3 class="heading2 medium text-center">Welcome to the club✨</h3>
-            <h4 class="heading4 light text-center">
-                12% off first transaction.
-            <br>
-                Offer valid till 28th Feb 2022. 
-            </h4>
-        </section>
-    </div>
-</div> 
+<p class="text3 black">...</p>       
+<p class="text3 bold">...</p>                                                
+<p class="text3 semi-bold">...</p>
+<p class="text3 medium">...</p>
+<p class="text3 regular">...</p>
+<p class="text3 light">...</p>       
+<p class="text3 extra-light">...</p>                                                
+<p class="text3 thin">...</p>
                             </script>
                         </div>
                     </div>
                 </div>
 
-                <p class="heading4 regular m8">Modal With Header and Footer.</p>
+                <p class="heading4 medium m8">Text Casing.</p>
                 <div class="tabs">
                     <div role="tablist" aria-label="Sample Tabs" >
                         <button role="tab" aria-selected="true" aria-controls="panel-21" id="tab-21" class="tab-header cp heading4">
@@ -185,99 +170,105 @@
                         </button>
                     </div>
                     <div id="panel-21" role="tabpanel" class="m10" aria-labelledby="tab-21">                    
-                       <div class="container">
-                            <button class="btn text4 medium text-uppercase cp" data-open="modal-header-footer">
-                                Launch the modal 🚀
-                            </button>                          
-                            <div class="modal-backdrop" id="modal-header-footer">
-                                <div class="modal-dialog">
-                                    <button class="btn close-modal cp" data-close="modal-header-footer"> ✕ </button>
-                                    <header>
-                                        <h4 class="heading3 medium">The header of the modal</h4>                               
-                                    </header>
-                                    <hr class="divider">
-                                    <section class="modal-content text4 medium">
-                                        <p>Ways to close the modal:<br>
-                                            1. Press the cross btn on the RHS corner.<br>
-                                            2. Click on the black screen besides this modal. 
-                                        </p>
-                                        <br>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
-                                        <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure</p>
-                                    </section>
-                                    <hr class="divider">
-                                    <footer class="modal-footer">
-                                        <h4 class="heading3 medium">The footer of the modal</h4>
-                                    </footer>
-                                </div>
-                          </div>                          
+                       <div class="container-typography typo-height">      
+                        <p class="text3 regular text-lowercase">And so the adventure begins.</p>       
+                        <p class="text3 regular text-uppercase">And so the adventure begins.</p>                                                
+                        <p class="text3 regular text-capital">And so the adventure begins.</p>
+                        </div>
                     </div> 
-                    </div>
                     <div id="panel-22" role="tabpanel" aria-labelledby="tab-22" hidden>
                         <div class="code-syntax">
                             <script type="text/plain" class="line-numbers language-markup">
-<button class="btn text4 medium text-uppercase cp" data-open="modal-header-footer">
-    Launch the modal
-</button>                          
-<div class="modal-backdrop" id="modal-header-footer">
-    <div class="modal-dialog">
-        <button class="btn close-modal cp" data-close="modal-header-footer"> ✕ </button>
-        <header>
-            <h4 class="heading3 medium">The header of the modal</h4>                               
-        </header>
-        <hr class="divider">
-        <section class="modal-content text4 medium">
-            <p>Ways to close the modal:<br>
-                1. Press the cross btn on the RHS corner.<br>
-                2. Click on the black screen besides this modal. 
-            </p>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ea.</p>
-        </section>
-        <hr class="divider">
-        <footer class="modal-footer">
-            <h4 class="heading3 medium">The footer of the modal</h4>
-        </footer>
-    </div>
-</div>        
+<p class="text3 regular text-lowercase">...</p>       
+<p class="text3 regular text-uppercase">...</p>                                                
+<p class="text3 regular text-capital">...</p>
                             </script>
                         </div>
                     </div>
                 </div>
 
-                <p class="heading4 regular m8">Javascript for launching the modals.</p>
-                <div class="code-syntax outside-container">
-                    <script type="text/plain" class="line-numbers language-javascript">
-const openModal = document.querySelectorAll("[data-open]");
-const closeModal = document.querySelectorAll("[data-close]");
-                        
-for (const modalNumber of openModal) {
-    modalNumber.addEventListener("click", function() {
-        const modalOpenId = this.dataset.open; 
-        document.getElementById(modalOpenId).classList.add("modal-dialog-visible");
-    });
-}
-                        
-for (const modalNumber of closeModal) {
-    modalNumber.addEventListener("click", function() {
-        const modalCloseId = this.dataset.close; 
-        document.getElementById(modalCloseId).classList.remove("modal-dialog-visible");
-    });
-}
-                        
-document.addEventListener("click", e => {
-    if (e.target == document.querySelector(".modal-backdrop.modal-dialog-visible")) {
-        document.querySelector(".modal-backdrop.modal-dialog-visible").classList.remove("modal-dialog-visible");
-    }
-});
-                    </script>
+                <p class="heading4 medium m8">Text Align.</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-31" id="tab-31" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-32" id="tab-32" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-31" role="tabpanel" class="m10" aria-labelledby="tab-31">                    
+                       <div class="container-typography typo-height">      
+                        <p class="text3 regular text-left text-view">And so the adventure begins.</p>       
+                        <p class="text3 regular text-center text-view">And so the adventure begins.</p>                                                
+                        <p class="text3 regular text-right text-view">And so the adventure begins.</p>
+                        </div>
+                    </div> 
+                    <div id="panel-32" role="tabpanel" aria-labelledby="tab-32" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<p class="text3 regular text-left">...</p>       
+<p class="text3 regular text-center">...</p>                                                
+<p class="text3 regular text-right">...</p>
+                            </script>
+                        </div>
+                    </div>
                 </div>
+
+                <p class="heading4 medium m8">Text Decoration.</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-41" id="tab-41" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-42" id="tab-42" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-41" role="tabpanel" class="m10" aria-labelledby="tab-41">                    
+                       <div class="container">   
+                           <section>
+                            <p class="text3 regular td">And so the adventure begins.</p>     
+                            <p class="text3 regular line-underline">And so the adventure begins.</p>       
+                            <p class="text3 regular line-strike">And so the adventure begins.</p>                                                
+                            <p class="text3 regular line-overline">And so the adventure begins.</p>
+                           </section>
+                        
+                      <section>   
+                        <p class="text3 regular line-underline line-solid">And so the adventure begins.</p>       
+                        <p class="text3 regular line-underline line-dotted">And so the adventure begins.</p>                                                
+                        <p class="text3 regular line-underline line-dashed">And so the adventure begins.</p>
+                        <p class="text3 regular line-underline line-wavy">And so the adventure begins.</p>  
+                        <p class="text3 regular line-underline line-double">And so the adventure begins.</p>  
+                      </section>
+                        
+                        </div>
+                    </div> 
+                    <div id="panel-42" role="tabpanel" aria-labelledby="tab-42" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<!-- Text Decoration Lines -->
+<p class="text3 regular td">...</p>       
+<p class="text3 regular line-underline">...</p>                                                
+<p class="text3 regular line-strike">...</p>
+<p class="text3 regular line-overline">...</p>  
+
+<!-- Text Decoration Styles -->
+<p class="text3 regular line-underline line-solid">...</p>                                                
+<p class="text3 regular line-underline line-dotted">...</p>
+<p class="text3 regular line-underline line-dashed">...</p>       
+<p class="text3 regular line-underline line-wavy">...</p>                                                
+<p class="text3 regular line-underline line-double">...</p>
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>   
         </main>
-        </div>
-    
+    </div>    
     <script src="/documentation/js/script.js"></script> 
     <script src="/documentation/js/prism.js" ></script>
-    <script src="/documentation/js/modal.js" ></script>        
 </body>
 </html>

@@ -37,10 +37,6 @@
     cursor: pointer;
 }
 
-.td{
-    text-decoration: none;
-}
-
 .btn-link:hover{
     color: var(--black);
 }

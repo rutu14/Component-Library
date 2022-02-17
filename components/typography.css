@@ -19,7 +19,7 @@
 }
 
 .heading5{
-    font-size: .8rem;
+    font-size: 8px;
     line-height: 1.6rem;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .text5{
-    font-size: .8rem;
+    font-size: 8px;
     line-height: 1.6rem;
 }
 
@@ -84,10 +84,62 @@
     letter-spacing: .0071428571em;
 }
 
+.text-left{
+    text-align: left;
+}
+
 .text-center{
     text-align: center;
 }
 
+.text-right{
+    text-align: right;
+}
+
+.text-lowercase{
+    text-transform: lowercase;
+}
+
 .text-uppercase{
     text-transform: uppercase;
+}
+
+.text-capital{
+    text-transform: capitalize;
+}
+
+.td{
+    text-decoration: none;
+}
+
+.line-underline{
+    text-decoration-line: underline;
+}
+
+.line-strike{
+    text-decoration-line: line-through;
+}
+
+.line-overline{
+    text-decoration-line: overline;
+}
+
+.line-solid{
+    text-decoration-style: solid;
+}
+
+.line-double{
+    text-decoration-style: double;
+}
+
+.line-dashed{
+    text-decoration-style: dashed;
+}
+
+.line-dotted{
+    text-decoration-style: dotted;
+}
+
+.line-wavy{
+    text-decoration-style: wavy;
 }
