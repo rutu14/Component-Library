@@ -6,7 +6,7 @@
     display: none; 
 } 
   
-label { 
+.rating-label { 
     color: var(--disabled-inner); 
     float: right; 
 }
