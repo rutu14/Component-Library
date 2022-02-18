@@ -81,39 +81,6 @@
 .header{
     grid-area: header;
     height: 6rem;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 0.8rem;
-    box-shadow: 0 2px 5px 0 var(--box-shadow), 0 2px 10px 0 var(--box-shadow);
-}
-
-.header-nav {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-  
-.header-nav li {
-    display: inline-block;
-}
-
-.text-link {
-    color:var(--black);
-    text-decoration: none;
-    margin: 0.8rem;
-}  
-
-.account-links {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 8rem;
-}
-
-.header-active{
-    border-bottom: 2px solid var(--primary-colour);
 }
 
 .maincontent{
@@ -285,4 +252,9 @@
     position: absolute;
     right: 1rem;
     padding: 1rem;
+}
+
+.nav-width{
+    width: 100%;
+    background-color: var(--warning-background);
 }
