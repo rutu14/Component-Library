@@ -12,6 +12,7 @@
 @import url(/components/modal.css);
 @import url(/components/rating.css);
 @import url(/components/navbar.css);
+@import url(/components/list.css);
 
 @import url(/components/reset.css);
 @import url(/components/typography.css);
@@ -52,7 +53,8 @@
     --modal-bg: #0000008a;
     --rating-checked: #FFD700;
     --rating-hover: #FFED85;
-
+    --list-colour: #7312ce;
+    --notify-shadow:#00000026;
 }
 
 html{

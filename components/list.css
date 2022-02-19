@@ -1,0 +1,72 @@
+.unorder1 {
+    list-style-type: circle;
+}
+  
+.unorder2 {
+    list-style-type: square;
+}
+
+.unorder3 {
+    list-style-type: disc;
+}
+  
+.order1 {
+    list-style-type: decimal-leading-zero;
+}
+  
+.order2 {
+    list-style-type: upper-alpha;
+}
+
+.order3 {
+    list-style-type: lower-alpha;
+}
+
+.order4 {
+    list-style-type: upper-roman;
+}
+
+.order5 {
+    list-style-type: lower-roman;
+}
+
+.no-list{
+    list-style-type: none;
+}
+
+ul[title]::before {
+    content: attr(title);
+    display: block;
+    font-weight: 500;
+    padding: 4px;
+    font-size: 1.6rem;
+}
+
+.list-size{
+    --order-list: 1.5rem;
+}
+
+.list-colour .colour-items::marker {
+    color: var(--list-colour);
+    font-size: var(--order-list, 2rem);
+}
+
+
+.notification {
+    width: 100%;
+}
+  
+.notification-items {
+    border: 0.5px solid var(--btn-link);
+    margin-top: -1px;
+    background-color: var(--notify-bg,var(--disabled));
+    padding: 5px;
+}
+
+.notify{
+    --notify-bg: var(--disabled-inner);
+    margin: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    box-shadow: var(--notify-shadow) 2.4px 2.4px 3.2px;
+}

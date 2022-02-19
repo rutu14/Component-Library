@@ -258,3 +258,7 @@
     width: 100%;
     background-color: var(--warning-background);
 }
+
+.list-close{
+    margin-left: auto;
+}

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Component-Library</title>
+</head>
+<body class="documentation">
+    <div class="wrapper">
+        <header class="nav-header header">
+            <h1 class="heading2 medium"></h1>      
+            <div class="nav-items">
+                <nav>
+                    <ul>
+                      <li><a href="/index.html" class="text4 nav-text-link">Home</a></li>
+                      <li><a href="#" class="text4 nav-text-link nav-link-active">Documentation</a></li>
+                    </ul>
+                </nav>
+                <div class="account-links">
+                    <a href="#" class="icon-button"><i class="bi bi-github"></i></a>
+                    <a href="#" class="icon-button"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+         </header>
+        <aside class="sidebar">
+            <nav>
+                <h3 class="heading4 medium">Usage</h3>
+                    <ul>
+                        <li class="listItem">
+                            <a href="install.html"  class="listValue text4 ls"></i>Install</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="colour-scheme.html"  class="listValue text4 ls"></i>Colours</a>
+                        </li>
+                    </ul>
+                <h3 class="heading4 medium m-t5">Typography</h3>
+                    <ul>
+                        <li class="listItem">
+                            <a href="typography-heading.html"  class="listValue text4 ls">Headings</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="typography-text.html"  class="listValue text4 ls"></i>Text</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="typography-helper.html"  class="listValue text4 ls"></i>Utilities</a>
+                        </li>
+                    </ul>
+                <h3 class="heading4 medium">Components</h3>
+                    <ul class="menu">
+                        <li class="listItem">
+                             <a href="avatar.html"  class="listValue text4 ls">Avatar</a>
+                        </li>
+                        <li class="listItem">
+                             <a href="alert.html"  class="listValue text4 ls"></i>Alert</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="badge.html"   class="listValue text4 ls"></i>Badge</a>
+                       </li>
+                        <li class="listItem">
+                             <a href="button.html"  class="listValue text4 ls">Button</a>
+                             <input type="radio" name="dropdown" id="dropopen" />     
+                             <label class="closer cp m10" for="dropclose"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="dropopen"><i class="bi bi-chevron-down"></i></label>                        
+                             <ul>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#primarybuttons"  class="listMenuValue" >Primary Buttons</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#linkbutton"  class="listMenuValue">Link Button</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="button.html#iconbutton"  class="listMenuValue">Icon Button</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                    <a href="button.html#floatingbutton"  class="listMenuValue">Floating Button</a>
+                                </li>
+                             </ul>
+                             <input type="radio" name="dropdown" id="dropclose" /> 
+                        </li>
+                        <li class="listItem">
+                             <a href="card.html" class="listValue text4 ls">Card</a>
+                             <input type="radio" name="drop1down" id="drop1open" />     
+                             <label class="closer cp m10" for="drop1close"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="drop1open"><i class="bi bi-chevron-down"></i></label>                        
+                             <ul>
+                                 <li class="listMenuItem">
+                                     <a href="card.html#vertical" class="listMenuValue">Vertical Layout</a>
+                                 </li>
+                                 <li class="listMenuItem">
+                                     <a href="card.html#horizontal" class="listMenuValue">Horizontal Layout</a>
+                                 </li>
+                                 
+                             </ul>
+                             <input type="radio" name="drop1down" id="drop1close" />                        
+                        </li>
+                        <li class="listItem">
+                            <a href="image.html" class="listValue text4 ls"></i>Image</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="input.html" class="listValue text4 ls"></i>Input</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="snackbar.html" class="listValue text4 ls"></i>Snackbar</a>
+                        </li>                                                     
+                        <li class="listItem">
+                            <a href="grid.html" class="listValue text4 ls"></i>Grid</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="modal.html" class="listValue text4 ls"></i>Modal</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="rating.html" class="listValue text4 ls"></i>Rating</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="navbar.html" class="listValue text4 ls"></i>Navbar</a>
+                        </li>
+                        <li class="listItem nav-active">
+                            <a href="list.html" class="listValue text4 ls"></i>List</a>
+                        </li>
+                    </ul>
+            </nav>
+        </aside>
+        <main class="maincontent">
+            <div id="component" >
+                <h1 class="heading2 medium">List</h1>
+        
+                <p class="heading4 regular m8">Unordered List with title.</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-11" id="tab-11" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-12" id="tab-12" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">                    
+                       <div class="container">                       
+                            <ul class="unorder1" title="List 1">
+                                <li class="text4 regular">Coffee</li>
+                                <li class="text4 regular">Tea</li>
+                                <li class="text4 regular">Coca Cola</li>
+                            </ul>
+                            
+                            <ul class="unorder2" title="List 2">
+                                <li class="text4 regular">Coffee</li>
+                                <li class="text4 regular">Tea</li>
+                                <li class="text4 regular">Coca Cola</li>
+                            </ul> 
+                            
+                            <ul class="unorder3" title="List 3">
+                                <li class="text4 regular">Coffee</li>
+                                <li class="text4 regular">Tea</li>
+                                <li class="text4 regular">Coca Cola</li>
+                            </ul> 
+                        </div> 
+                    </div>
+                    <div id="panel-12" role="tabpanel" aria-labelledby="tab-12" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<ul class="unorder1" title="List 1">
+    <li class="text4 regular">Coffee</li>
+    <li class="text4 regular">Tea</li>
+    <li class="text4 regular">Coca Cola</li>
+</ul>
+
+<ul class="unorder2" title="List 2">
+    <li class="text4 regular">Coffee</li>
+    <li class="text4 regular">Tea</li>
+    <li class="text4 regular">Coca Cola</li>
+</ul> 
+
+<ul class="unorder3" title="List 3">
+    <li class="text4 regular">Coffee</li>
+    <li class="text4 regular">Tea</li>
+    <li class="text4 regular">Coca Cola</li>
+</ul> 
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="heading4 regular m8">Colored unordered list marker</p>
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs" >
+                        <button role="tab" aria-selected="true" aria-controls="panel-21" id="tab-21" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-22" id="tab-22" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-21" role="tabpanel" class="m10" aria-labelledby="tab-21">                    
+                       <div class="container">                       
+                            <ul class="unorder1 list-colour" title="List 1">
+                                <li class="colour-items text4 regular">Coffee</li>
+                                <li class="colour-items text4 regular">Tea</li>
+                                <li class="colour-items text4 regular">Coca Cola</li>
+                            </ul>
+                            
+                            <ul class="unorder2 list-colour" title="List 2">
+                                <li class="colour-items text4 regular">Coffee</li>
+                                <li class="colour-items text4 regular">Tea</li>
+                                <li class="colour-items text4 regular">Coca Cola</li>
+                            </ul> 
+                            
+                            <ul class="unorder3 list-colour" title="List 3">
+                                <li class="colour-items text4 regular">Coffee</li>
+                                <li class="colour-items text4 regular">Tea</li>
+                                <li class="colour-items text4 regular">Coca Cola</li>
+                            </ul> 
+                        </div> 
+                    </div>
+                    <div id="panel-22" role="tabpanel" aria-labelledby="tab-22" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<ul class="unorder1 list-colour" title="List 1">
+    <li class="colour-items text4 regular">Coffee</li>
+    <li class="colour-items text4 regular">Tea</li>
+    <li class="colour-items text4 regular">Coca Cola</li>
+</ul>
+
+<ul class="unorder2 list-colour" title="List 2">
+    <li class="colour-items text4 regular">Coffee</li>
+    <li class="colour-items text4 regular">Tea</li>
+    <li class="colour-items text4 regular">Coca Cola</li>
+</ul> 
+
+<ul class="unorder3 list-colour" title="List 3">
+    <li class="colour-items text4 regular">Coffee</li>
+    <li class="colour-items text4 regular">Tea</li>
+    <li class="colour-items text4 regular">Coca Cola</li>
+</ul> 
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="heading4 regular m8">Ordered Lists</p>        
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs">
+                        <button role="tab" aria-selected="true" aria-controls="panel-31" id="tab-31" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-32" id="tab-32" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-31" role="tabpanel" class="m10" aria-labelledby="tab-31">                    
+                        <div class="container">
+                            <ol class="order1">
+                                <li class="text4 regular">Coffee</li>
+                                <li class="text4 regular">Tea</li>
+                                <li class="text4 regular">Coca Cola</li>
+                            </ol>
+                            
+                            <ol class="order2">
+                                <li class="text4 regular">Coffee</li>
+                                <li class="text4 regular">Tea</li>
+                                <li class="text4 regular">Coca Cola</li>
+                            </ol>
+
+                            <ol class="order3">
+                                <li class="text4 regular">Coffee</li>
+                                <li class="text4 regular">Tea</li>
+                                <li class="text4 regular">Coca Cola</li>
+                            </ol>
+                            
+                            <ol class="order4">
+                                <li class="text4 regular">Coffee</li>
+                                <li class="text4 regular">Tea</li>
+                                <li class="text4 regular">Coca Cola</li>
+                            </ol>
+
+                            <ol class="order5">
+                                <li class="text4 regular">Coffee</li>
+                                <li class="text4 regular">Tea</li>
+                                <li class="text4 regular">Coca Cola</li>
+                            </ol>        
+                        </div>
+                    </div>
+                    <div id="panel-32" role="tabpanel" aria-labelledby="tab-32" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<ol class="order1">
+    <li class="text4 regular">Coffee</li>
+    <li class="text4 regular">Tea</li>
+    <li class="text4 regular">Coca Cola</li>
+</ol>
+
+<ol class="order2">
+    <li class="text4 regular">Coffee</li>
+    <li class="text4 regular">Tea</li>
+    <li class="text4 regular">Coca Cola</li>
+</ol>
+
+<ol class="order3">
+    <li class="text4 regular">Coffee</li>
+    <li class="text4 regular">Tea</li>
+    <li class="text4 regular">Coca Cola</li>
+</ol>
+
+<ol class="order4">
+    <li class="text4 regular">Coffee</li>
+    <li class="text4 regular">Tea</li>
+    <li class="text4 regular">Coca Cola</li>
+</ol>
+
+<ol class="order5">
+    <li class="text4 regular">Coffee</li>
+    <li class="text4 regular">Tea</li>
+    <li class="text4 regular">Coca Cola</li>
+</ol>
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="heading4 regular m8">Coloured Ordered Lists</p>        
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs">
+                        <button role="tab" aria-selected="true" aria-controls="panel-41" id="tab-41" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-42" id="tab-42" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-41" role="tabpanel" class="m10" aria-labelledby="tab-41">                    
+                        <div class="container">
+                            <ol class="order1 list-colour list-size">
+                                <li class="colour-items text4 regular">Coffee</li>
+                                <li class="colour-items text4 regular">Tea</li>
+                                <li class="colour-items text4 regular">Coca Cola</li>
+                            </ol>
+                            
+                            <ol class="order2 list-colour list-size">
+                                <li class="colour-items text4 regular">Coffee</li>
+                                <li class="colour-items text4 regular">Tea</li>
+                                <li class="colour-items text4 regular">Coca Cola</li>
+                            </ol>
+
+                            <ol class="order3 list-colour list-size">
+                                <li class="colour-items text4 regular">Coffee</li>
+                                <li class="colour-items text4 regular">Tea</li>
+                                <li class="colour-items text4 regular">Coca Cola</li>
+                            </ol>
+                            
+                            <ol class="order4 list-colour list-size">
+                                <li class="colour-items text4 regular">Coffee</li>
+                                <li class="colour-items text4 regular">Tea</li>
+                                <li class="colour-items text4 regular">Coca Cola</li>
+                            </ol>
+
+                            <ol class="order5 list-colour list-size">
+                                <li class="colour-items text4 regular">Coffee</li>
+                                <li class="colour-items text4 regular">Tea</li>
+                                <li class="colour-items text4 regular">Coca Cola</li>
+                            </ol>        
+                        </div>
+                    </div>
+                    <div id="panel-42" role="tabpanel" aria-labelledby="tab-42" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<ol class="order1 list-colour list-size">
+    <li class="colour-items text4 regular">Coffee</li>
+    <li class="colour-items text4 regular">Tea</li>
+    <li class="colour-items text4 regular">Coca Cola</li>
+</ol>
+
+<ol class="order2 list-colour list-size">
+    <li class="colour-items text4 regular">Coffee</li>
+    <li class="colour-items text4 regular">Tea</li>
+    <li class="colour-items text4 regular">Coca Cola</li>
+</ol>
+
+<ol class="order3 list-colour list-size">
+    <li class="colour-items text4 regular">Coffee</li>
+    <li class="colour-items text4 regular">Tea</li>
+    <li class="colour-items text4 regular">Coca Cola</li>
+</ol>
+
+<ol class="order4 list-colour list-size">
+    <li class="colour-items text4 regular">Coffee</li>
+    <li class="colour-items text4 regular">Tea</li>
+    <li class="colour-items text4 regular">Coca Cola</li>
+</ol>
+
+<ol class="order5 list-colour list-size">
+    <li class="colour-items text4 regular">Coffee</li>
+    <li class="colour-items text4 regular">Tea</li>
+    <li class="colour-items text4 regular">Coca Cola</li>
+</ol>
+                            </script>
+                        </div>
+                    </div>
+                </div>
+        
+                <h5 class="heading3 medium m8">Notification Stack</h5>    
+                
+                <p class="heading4 regular m8">Stack 1</p>  
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs">
+                        <button role="tab" aria-selected="true" aria-controls="panel-51" id="tab-51" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-52" id="tab-52" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-51" role="tabpanel" class="m10" aria-labelledby="tab-51">                    
+                        <div class="container">
+                            <ul class="notification no-list">
+                                <li class="notification-items">
+                                    <div class="colour-detail">                   
+                                        <div class="icon-button"><i class="bi bi-bell"></i></div>
+                                        <section class="colour-name">
+                                            <h2 class="text4 regular">Mary posted a new post.</h2>
+                                            <h3 class="text4 regular">💘</h3>
+                                        </section> 
+                                        <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+                                    </div>
+                                </li>
+                                <li class="notification-items">
+                                    <div class="colour-detail">                   
+                                        <div class="icon-button"><i class="bi bi-bell"></i></div>
+                                        <section class="colour-name">
+                                            <h2 class="text4 regular">Ludo King</h2>
+                                            <h3 class="text4 regular">Invite friends to play</h3>
+                                        </section> 
+                                        <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+                                    </div>
+                                </li>
+                                <li class="notification-items">
+                                    <div class="colour-detail">                   
+                                        <div class="icon-button"><i class="bi bi-bell"></i></div>
+                                        <section class="colour-name">
+                                            <h2 class="text4 regular">Criminal Case </h2>
+                                            <h3 class="text4 regular">Time's UP</h3>
+                                        </section> 
+                                        <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+                                    </div>
+                                </li>
+                                <li class="notification-items">
+                                    <div class="colour-detail">                   
+                                        <div class="icon-button"><i class="bi bi-bell"></i></div>
+                                        <section class="colour-name">
+                                            <h2 class="text4 regular">John commented on Mary's post</h2>
+                                            <h3 class="text4 light">✨</h3>
+                                        </section> 
+                                        <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+                                    </div>
+                                </li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div id="panel-52" role="tabpanel" aria-labelledby="tab-52" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<ul class="notification no-list">
+    <li class="notification-items">
+        <div class="colour-detail">                   
+            <div class="icon-button"><i class="bi bi-bell"></i></div>
+            <section class="colour-name">
+                <h2 class="text4 regular">Mary posted a new post.</h2>
+                <h3 class="text4 regular">💘</h3>
+            </section> 
+            <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+        </div>
+    </li>
+    <li class="notification-items">
+        <div class="colour-detail">                   
+            <div class="icon-button"><i class="bi bi-bell"></i></div>
+            <section class="colour-name">
+                <h2 class="text4 regular">Ludo King</h2>
+                <h3 class="text4 regular">Invite friends to play</h3>
+            </section> 
+            <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+        </div>
+    </li>
+    <li class="notification-items">
+        <div class="colour-detail">                   
+            <div class="icon-button"><i class="bi bi-bell"></i></div>
+            <section class="colour-name">
+                <h2 class="text4 regular">Criminal Case </h2>
+                <h3 class="text4 regular">Time's UP</h3>
+            </section> 
+            <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+        </div>
+    </li>
+    <li class="notification-items">
+        <div class="colour-detail">                   
+            <div class="icon-button"><i class="bi bi-bell"></i></div>
+            <section class="colour-name">
+                <h2 class="text4 regular">John commented on Mary's post</h2>
+                <h3 class="text4 light">✨</h3>
+            </section> 
+            <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+        </div>
+    </li>
+</ul> 
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="heading4 regular m8">Stack 2</p>  
+                <div class="tabs">
+                    <div role="tablist" aria-label="Sample Tabs">
+                        <button role="tab" aria-selected="true" aria-controls="panel-61" id="tab-61" class="tab-header cp heading4">
+                            Example
+                        </button>
+                        <button role="tab" aria-selected="false" aria-controls="panel-62" id="tab-62" class="tab-header cp heading4">
+                            Code
+                        </button>
+                    </div>
+                    <div id="panel-61" role="tabpanel" class="m10" aria-labelledby="tab-61">                    
+                        <div class="container">
+                            <ul class="notification no-list border-basic">
+                                <li class="notification-items notify">
+                                    <div class="colour-detail">                   
+                                        <div class="icon-button"><i class="bi bi-bell"></i></div>
+                                        <section class="colour-name">
+                                            <h2 class="text4 regular">Mary posted a new post.</h2>
+                                            <h3 class="text4 regular">💘</h3>
+                                        </section> 
+                                        <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+                                    </div>
+                                </li>
+                                <li class="notification-items notify">
+                                    <div class="colour-detail">                   
+                                        <div class="icon-button"><i class="bi bi-bell"></i></div>
+                                        <section class="colour-name">
+                                            <h2 class="text4 regular">Ludo King</h2>
+                                            <h3 class="text4 regular">Invite friends to play</h3>
+                                        </section> 
+                                        <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+                                    </div>
+                                </li>
+                                <li class="notification-items notify">
+                                    <div class="colour-detail">                   
+                                        <div class="icon-button"><i class="bi bi-bell"></i></div>
+                                        <section class="colour-name">
+                                            <h2 class="text4 regular">Criminal Case </h2>
+                                            <h3 class="text4 regular">Time's UP</h3>
+                                        </section> 
+                                        <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+                                    </div>
+                                </li>
+                                <li class="notification-items notify">
+                                    <div class="colour-detail">                   
+                                        <div class="icon-button"><i class="bi bi-bell"></i></div>
+                                        <section class="colour-name">
+                                            <h2 class="text4 regular">John commented on Mary's post</h2>
+                                            <h3 class="text4 light">✨</h3>
+                                        </section> 
+                                        <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+                                    </div>
+                                </li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div id="panel-62" role="tabpanel" aria-labelledby="tab-62" hidden>
+                        <div class="code-syntax">
+                            <script type="text/plain" class="line-numbers language-markup">
+<ul class="notification no-list border-basic">
+    <li class="notification-items notify">
+        <div class="colour-detail">                   
+            <div class="icon-button"><i class="bi bi-bell"></i></div>
+            <section class="colour-name">
+                <h2 class="text4 regular">Mary posted a new post.</h2>
+                <h3 class="text4 regular">💘</h3>
+            </section> 
+            <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+        </div>
+    </li>
+    <li class="notification-items notify">
+        <div class="colour-detail">                   
+            <div class="icon-button"><i class="bi bi-bell"></i></div>
+            <section class="colour-name">
+                <h2 class="text4 regular">Ludo King</h2>
+                <h3 class="text4 regular">Invite friends to play</h3>
+            </section> 
+            <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+        </div>
+    </li>
+    <li class="notification-items notify">
+        <div class="colour-detail">                   
+            <div class="icon-button"><i class="bi bi-bell"></i></div>
+            <section class="colour-name">
+                <h2 class="text4 regular">Criminal Case </h2>
+                <h3 class="text4 regular">Time's UP</h3>
+            </section> 
+            <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+        </div>
+    </li>
+    <li class="notification-items notify">
+        <div class="colour-detail">                   
+            <div class="icon-button"><i class="bi bi-bell"></i></div>
+            <section class="colour-name">
+                <h2 class="text4 regular">John commented on Mary's post</h2>
+                <h3 class="text4 light">✨</h3>
+            </section> 
+            <div class="list-close icon-button"><i class="bi bi-x"></i></div>
+        </div>
+    </li>
+</ul> 
+                            </script>
+                        </div>
+                    </div>
+                </div>
+        
+                
+            </div>
+        </main>
+        </div>
+    <script src="/documentation/js/script.js"></script> 
+    <script src="/documentation/js/prism.js" ></script>
+</body>
+</html>
+
