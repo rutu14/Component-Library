@@ -1,32 +1,32 @@
-.unorder1 {
+.list-unorder1 {
     list-style-type: circle;
 }
   
-.unorder2 {
+.list-unorder2 {
     list-style-type: square;
 }
 
-.unorder3 {
+.list-unorder3 {
     list-style-type: disc;
 }
   
-.order1 {
+.list-order1 {
     list-style-type: decimal-leading-zero;
 }
   
-.order2 {
+.list-order2 {
     list-style-type: upper-alpha;
 }
 
-.order3 {
+.list-order3 {
     list-style-type: lower-alpha;
 }
 
-.order4 {
+.list-order4 {
     list-style-type: upper-roman;
 }
 
-.order5 {
+.list-order5 {
     list-style-type: lower-roman;
 }
 
