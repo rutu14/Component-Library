@@ -6,13 +6,13 @@ Utilize the library to develop an amazing and seamless user interface.
 <br/>
 
 ## Documentation
----
+
 View the documentation: [Component Library](https://friendly-kilby-44e498.netlify.app/)
 
-<br/>
+---
 
 ## Installation
----
+
 Utilize the components in your project by adding the stylesheet to the html file.
 ```html
 <link href="https://friendly-kilby-44e498.netlify.app/components/component.css" rel="stylesheet"/>
