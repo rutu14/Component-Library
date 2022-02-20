@@ -6,6 +6,10 @@
     cursor: not-allowed;
 }
 
+.display-none{
+    display: none;
+}
+
 .display-block{
     display: block;
 }
@@ -16,4 +20,8 @@
 
 .border-basic{
     border: 1px solid var(--black);
+}
+
+.z0{
+    z-index: 0;
 }

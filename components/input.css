@@ -158,6 +158,7 @@ input[type=tel]:focus{
 .input-grp {
     display:flex;
     line-height: 2rem;
+    width: fit-content;
 }
   
 .input-grp-right {

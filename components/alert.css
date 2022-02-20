@@ -81,3 +81,15 @@
     background-color: var(--info-background);
     border: 0.1rem solid var(--info-background);
 }
+
+@media only screen and (max-width: 600px) {
+    .alert{
+        max-width: 35rem;
+        padding: 1rem 1.6rem;
+    }
+
+    .top-middle-position,.bottom-middle-position {
+        left: 20%;
+    }
+}
+
