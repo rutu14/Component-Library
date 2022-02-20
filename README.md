@@ -256,6 +256,10 @@ It helps in navigating through the application.
 
     ![Basic Navbar 2](/assests/readme/navbar2.png)
 
+1. Basic Responsive Navbar.
+
+1. Basic Responsive Navbar 2.
+
 View the navbar component : [Navbar](https://friendly-kilby-44e498.netlify.app/documentation/navbar.html)
 
 ---
