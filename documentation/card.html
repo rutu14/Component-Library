@@ -5,12 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Component-Library</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assests/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assests/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assests/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assests/favicon/site.webmanifest">
+    <title>Thread UI  |  Component-Library</title>
 </head>
 <body class="documentation">
     <div class="wrapper">
         <header class="nav-header header">
-            <h1 class="heading2 medium"></h1>      
+            <div class="mobile-nav">
+                <input type="checkbox" />
+                <span></span><span></span><span></span>
+                <ul class="menu-nav">                    
+                    <li class="no-list medium">
+                        <a href="/index.html" class="listValue text3 ls">Home</a>
+                    </li>
+                    <h3 class="heading3 medium line-underline line-solid">Usage</h3>
+                        <ul>
+                            <li class="listItem">
+                                <a href="install.html"  class="listValue text3 ls"></i>Install</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="colour-scheme.html"  class="listValue text3 ls"></i>Colours</a>
+                            </li>
+                        </ul>
+                    <h3 class="heading3 medium line-underline line-solid m-t5">Typography</h3>
+                        <ul>
+                            <li class="listItem">
+                                <a href="typography-heading.html"  class="listValue text3 ls">Headings</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="typography-text.html"  class="listValue text3 ls"></i>Text</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="typography-helper.html"  class="listValue text3 ls"></i>Utilities</a>
+                            </li>
+                        </ul>
+                    <h3 class="heading3 medium line-underline line-solid">Components</h3>
+                        <ul class="menu">
+                            <li class="listItem">
+                                <a href="alert.html"  class="listValue text3 ls"></i>Alert</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="avatar.html"  class="listValue text3 ls">Avatar</a>
+                            </li>                            
+                            <li class="listItem">
+                                <a href="badge.html"   class="listValue text3 ls"></i>Badge</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="button.html"  class="listValue text3 ls">Button</a>
+                                <input type="radio" name="dropdown" id="dropopen" />     
+                                <label class="closer cp m10" for="dropclose"><i class="bi bi-chevron-up"></i></label>                   
+                                <label class="opener cp m10" for="dropopen"><i class="bi bi-chevron-down"></i></label>                        
+                                    <ul>
+                                        <li class="listMenuItem">
+                                            <a href="button.html#primarybuttons"  class="listMenuValue" >Primary Buttons</a>
+                                        </li>
+                                        <li class="listMenuItem">
+                                            <a href="button.html#linkbutton"  class="listMenuValue">Link Button</a>
+                                        </li>
+                                        <li class="listMenuItem">
+                                            <a href="button.html#iconbutton"  class="listMenuValue">Icon Button</a>
+                                        </li>
+                                        <li class="listMenuItem">
+                                            <a href="button.html#floatingbutton"  class="listMenuValue">Floating Button</a>
+                                        </li>
+                                    </ul>
+                                    <input type="radio" name="dropdown" id="dropclose" /> 
+                            </li>
+                            <li class="listItem nav-active">
+                                    <a href="card.html" class="listValue text3 ls">Card</a>
+                                    <input type="radio" name="drop1down" id="drop1open" />     
+                                    <label class="closer cp m10" for="drop1close"><i class="bi bi-chevron-up"></i></label>                   
+                                    <label class="opener cp m10" for="drop1open"><i class="bi bi-chevron-down"></i></label>                        
+                                    <ul>
+                                        <li class="listMenuItem">
+                                            <a href="card.html#vertical" class="listMenuValue">Vertical Layout</a>
+                                        </li>
+                                        <li class="listMenuItem">
+                                            <a href="card.html#horizontal" class="listMenuValue">Horizontal Layout</a>
+                                        </li>  
+                                    </ul>
+                                    <input type="radio" name="drop1down" id="drop1close" />                        
+                            </li>
+                            <li class="listItem">
+                                <a href="grid.html" class="listValue text3 ls"></i>Grid</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="image.html" class="listValue text3 ls"></i>Image</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="input.html" class="listValue text3 ls"></i>Input</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="list.html" class="listValue text3 ls"></i>List</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="modal.html" class="listValue text3 ls"></i>Modal</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="navbar.html" class="listValue text3 ls"></i>Navbar</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="rating.html" class="listValue text3 ls"></i>Rating</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="slider.html" class="listValue text3 ls"></i>Slider</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="snackbar.html" class="listValue text3 ls"></i>Snackbar</a>
+                            </li>
+                        </ul>
+                    <div class="account-links m-t10">
+                        <h4 class="text4 regular">Connect through: </h4>
+                        <a href="#" class="icon-button"><i class="bi bi-github"></i></a>
+                        <a href="#" class="icon-button"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </ul>
+           </div>
+            <h1 class="heading2 medium nav-title">Thread UI</h1>      
             <div class="nav-items">
                 <nav>
                     <ul>
@@ -50,19 +164,19 @@
                 <h3 class="heading4 medium">Components</h3>
                     <ul class="menu">
                         <li class="listItem">
-                             <a href="avatar.html" class="listValue text4 ls">Avatar</a>
+                            <a href="alert.html"  class="listValue text4 ls"></i>Alert</a>
                         </li>
                         <li class="listItem">
-                             <a href="alert.html" class="listValue text4 ls"></i>Alert</a>
-                        </li>
+                             <a href="avatar.html"  class="listValue text4 ls">Avatar</a>
+                        </li>                        
                         <li class="listItem">
-                            <a href="badge.html" class="listValue text4 ls"></i>Badge</a>
+                            <a href="badge.html"   class="listValue text4 ls"></i>Badge</a>
                        </li>
                         <li class="listItem">
-                             <a href="button.html" class="listValue text4 ls">Button</a>
-                             <input type="radio" name="dropdown" id="dropopen" />
-                             <label class="closer cp m10" for="dropclose"><i class="bi bi-chevron-up"></i></label>
-                             <label class="opener cp m10" for="dropopen"><i class="bi bi-chevron-down"></i></label>
+                             <a href="button.html"  class="listValue text4 ls">Button</a>
+                             <input type="radio" name="dropdown" id="dropopen" />     
+                             <label class="closer cp m10" for="dropclose"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="dropopen"><i class="bi bi-chevron-down"></i></label>                        
                              <ul>
                                  <li class="listMenuItem">
                                      <a href="button.html#primarybuttons"  class="listMenuValue" >Primary Buttons</a>
@@ -77,13 +191,13 @@
                                     <a href="button.html#floatingbutton"  class="listMenuValue">Floating Button</a>
                                 </li>
                              </ul>
-                             <input type="radio" name="dropdown" id="dropclose" />
+                             <input type="radio" name="dropdown" id="dropclose" /> 
                         </li>
                         <li class="listItem nav-active">
                              <a href="card.html" class="listValue text4 ls">Card</a>
-                             <input type="radio" name="drop1down" id="drop1open" />
-                             <label class="closer cp m10" for="drop1close"><i class="bi bi-chevron-up"></i></label>
-                             <label class="opener cp m10" for="drop1open"><i class="bi bi-chevron-down"></i></label>
+                             <input type="radio" name="drop1down" id="drop1open" />     
+                             <label class="closer cp m10" for="drop1close"><i class="bi bi-chevron-up"></i></label>                   
+                             <label class="opener cp m10" for="drop1open"><i class="bi bi-chevron-down"></i></label>                        
                              <ul>
                                  <li class="listMenuItem">
                                      <a href="card.html#vertical" class="listMenuValue">Vertical Layout</a>
@@ -91,29 +205,36 @@
                                  <li class="listMenuItem">
                                      <a href="card.html#horizontal" class="listMenuValue">Horizontal Layout</a>
                                  </li>
+                                 
                              </ul>
-                             <input type="radio" name="drop1down" id="drop1close" />
+                             <input type="radio" name="drop1down" id="drop1close" />                        
                         </li>
-                       <li class="listItem">
+                        <li class="listItem">
+                            <a href="grid.html" class="listValue text4 ls"></i>Grid</a>
+                        </li>
+                        <li class="listItem">
                             <a href="image.html" class="listValue text4 ls"></i>Image</a>
                         </li>
                         <li class="listItem">
                             <a href="input.html" class="listValue text4 ls"></i>Input</a>
-                        </li>                                                                                                       
+                        </li>
                         <li class="listItem">
-                            <a href="snackbar.html" class="listValue text4 ls"></i>Snackbar</a>
-                        </li>                                                      
-                        <li class="listItem">
-                            <a href="grid.html" class="listValue text4 ls"></i>Grid</a>
+                            <a href="list.html" class="listValue text4 ls"></i>List</a>
                         </li>
                         <li class="listItem">
                             <a href="modal.html" class="listValue text4 ls"></i>Modal</a>
                         </li>
                         <li class="listItem">
+                            <a href="navbar.html" class="listValue text4 ls"></i>Navbar</a>
+                        </li> 
+                        <li class="listItem">
                             <a href="rating.html" class="listValue text4 ls"></i>Rating</a>
                         </li>
                         <li class="listItem">
-                            <a href="navbar.html" class="listValue text4 ls"></i>Navbar</a>
+                            <a href="slider.html" class="listValue text4 ls"></i>Slider</a>
+                        </li>
+                        <li class="listItem">
+                            <a href="snackbar.html" class="listValue text4 ls"></i>Snackbar</a>
                         </li>
                     </ul>
                 </nav>
@@ -139,7 +260,7 @@
                     <div id="panel-11" role="tabpanel" class="m10" aria-labelledby="tab-11">
                        <div class="container">
                             <div class="card">
-                                <img class="card-img card-img-border" src="/assests/images/Avatar.jpg">
+                                <img loading="lazy" alt="Card Image" class="card-img card-img-border" src="/assests/images/Avatar.jpg">
                                 <div class="card-title-box">
                                     <h2 class="card-title medium">Our Changing Planet</h2>
                                     <h3 class="card-subtitle medium">by Kurt Wagner</h3>
@@ -203,7 +324,7 @@
                     <div id="panel-21" role="tabpanel" class="m10" aria-labelledby="tab-21">
                        <div class="container">
                             <div class="card">
-                                <img class="card-img card-img-border" src="/assests/images/Avatar.jpg">
+                                <img loading="lazy" alt="Card Image" class="card-img card-img-border" src="/assests/images/Avatar.jpg">
                                 <div class="card-title-box overlay ">
                                     <h2 class="card-title medium">Our Changing Planet</h2>
                                     <h3 class="card-subtitle medium">by Kurt Wagner</h3>
@@ -271,7 +392,7 @@
                                     <h2 class="card-title medium">Our Changing Planet</h2>
                                     <h3 class="card-subtitle medium">by Kurt Wagner</h3>
                                 </div>
-                                <img class="card-img" src="/assests/images/lofi.jpg">
+                                <img loading="lazy" alt="Card Image" class="card-img" src="/assests/images/lofi.jpg">
                                 <div class="card-content overlay-content">
                                     Visit ten places on our planet that are undergoing the biggest changes today.
                                 </div>
@@ -329,18 +450,18 @@
                         </button>
                     </div>
                     <div id="panel-41" role="tabpanel" class="m10" aria-labelledby="tab-41">
-                       <div class="container">
+                       <div class="container card-container">
                             <div class="card card-box-shadow">
                                 <div class="card-title-box middle-overlay">
                                     <h2 class="heading4 text-center medium">Our Changing Planet </h2>
                                 </div>
-                                <img class="card-img card-img-all-borders" src="/assests/images/Avatar.jpg">
+                                <img loading="lazy" alt="Card Image" class="card-img card-img-all-borders" src="/assests/images/Avatar.jpg">
                             </div>
                             <div class="card">
                                 <div class="card-title-box middle-overlay">
                                     <h2 class="heading4 text-center medium">Our Changing Planet is down forerver.</h2>
                                 </div>
-                                <img class="card-img card-img-all-borders" src="/assests/images/lofi.jpg">
+                                <img loading="lazy" alt="Card Image" class="card-img card-img-all-borders" src="/assests/images/lofi.jpg">
                             </div>
                         </div>
                     </div>
@@ -380,7 +501,7 @@
                        <div class="container">
                             <div class="card disabled-cover">
                                 <div class="disabled-label text4 medium text-center">Out Of Stock</div>
-                                <img class="card-img card-img-border" src="/assests/images/Avatar.jpg">
+                                <img loading="lazy" alt="Card Image" class="card-img card-img-border" src="/assests/images/Avatar.jpg">
                                 <div class="card-title-box">
                                     <h2 class="card-title medium">Our Changing Planet</h2>
                                     <h3 class="card-subtitle medium">by Kurt Wagner</h3>
@@ -448,7 +569,7 @@
                         <div class="container">
                             <div class="card card-box-shadow horizontal-short">
                                 <div class="card-body">
-                                    <img class="card-img horizontal-short-img card-h-img-border-tl" src="/assests/images/lofi.jpg">
+                                    <img loading="lazy" alt="Card Image" class="card-img horizontal-short-img card-h-img-border-tl" src="/assests/images/lofi.jpg">
                                     <div class="card-title-box">
                                         <h2 class="card-title medium">Our Changing Planet</h2>
                                         <h3 class="card-subtitle medium">by Kurt Wagner</h3>
@@ -509,7 +630,7 @@
                     <div id="panel-71" role="tabpanel" class="m10" aria-labelledby="tab-71">
                        <div class="container">
                             <div class="card horizontal-medium">
-                                <img class="card-img horizontal-medium-img card-h-img-border-l" src="/assests/images/lofi.jpg">
+                                <img loading="lazy" alt="Card Image" class="card-img horizontal-medium-img card-h-img-border-l" src="/assests/images/lofi.jpg">
                                 <div class="card-body horizontal-medium-content">
                                     <div class="card-title-box">
                                         <h2 class="card-title medium">Our Changing Planet</h2>
@@ -518,7 +639,7 @@
                                     <div class="card-content">
                                         Visit ten places on our planet that are undergoing the biggest changes today.
                                     </div>
-                                    <div class="card-actions">
+                                    <div class="card-actions card-actions-flow">
                                         <div class="text-actions">
                                             <button class="btn text-card-button medium text-uppercase cp">Read</button>
                                             <button class="btn text-card-button medium text-uppercase cp">BookMark</button>
@@ -577,7 +698,7 @@
                     <div id="panel-81" role="tabpanel" class="m10" aria-labelledby="tab-81">
                        <div class="container">
                             <div class="card horizontal-large">
-                                <img class="card-img horizontal-large-img card-h-img-border-l" src="/assests/images/lofi.jpg">
+                                <img loading="lazy" alt="Card Image" class="card-img horizontal-large-img card-h-img-border-l" src="/assests/images/lofi.jpg">
                                 <div class="card-body horizontal-large-content">
                                     <div class="card-title-box">
                                         <h2 class="card-title medium">Our Changing Planet</h2>
@@ -586,7 +707,7 @@
                                     <div class="card-content">
                                         Visit ten places on our planet that are undergoing the biggest changes today.
                                     </div>
-                                    <div class="card-actions h-large-action">
+                                    <div class="card-actions card-actions-flow h-large-action">
                                         <button class="btn btn-primary outline h-large-btns" type="button">
                                             <i class="bi bi-cart3 inside-btn"></i>Add to Cart
                                         </button>

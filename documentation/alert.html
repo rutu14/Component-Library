@@ -5,12 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Component-Library</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assests/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assests/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assests/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assests/favicon/site.webmanifest">
+    <title>Thread UI  |  Component-Library</title>
 </head>
 <body class="documentation">
     <div class="wrapper">
         <header class="nav-header header">
-            <h1 class="heading2 medium"></h1>      
+            <div class="mobile-nav">
+                <input type="checkbox" />
+                <span></span><span></span><span></span>
+                <ul class="menu-nav">                    
+                    <li class="no-list medium">
+                        <a href="/index.html" class="listValue text3 ls">Home</a>
+                    </li>
+                    <h3 class="heading3 medium line-underline line-solid">Usage</h3>
+                        <ul>
+                            <li class="listItem">
+                                <a href="install.html"  class="listValue text3 ls"></i>Install</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="colour-scheme.html"  class="listValue text3 ls"></i>Colours</a>
+                            </li>
+                        </ul>
+                    <h3 class="heading3 medium line-underline line-solid m-t5">Typography</h3>
+                        <ul>
+                            <li class="listItem">
+                                <a href="typography-heading.html"  class="listValue text3 ls">Headings</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="typography-text.html"  class="listValue text3 ls"></i>Text</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="typography-helper.html"  class="listValue text3 ls"></i>Utilities</a>
+                            </li>
+                        </ul>
+                    <h3 class="heading3 medium line-underline line-solid">Components</h3>
+                        <ul class="menu">
+                            <li class="listItem nav-active">
+                                <a href="alert.html"  class="listValue text3 ls"></i>Alert</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="avatar.html"  class="listValue text3 ls">Avatar</a>
+                            </li>                            
+                            <li class="listItem">
+                                <a href="badge.html"   class="listValue text3 ls"></i>Badge</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="button.html"  class="listValue text3 ls">Button</a>
+                                <input type="radio" name="dropdown" id="dropopen" />     
+                                <label class="closer cp m10" for="dropclose"><i class="bi bi-chevron-up"></i></label>                   
+                                <label class="opener cp m10" for="dropopen"><i class="bi bi-chevron-down"></i></label>                        
+                                    <ul>
+                                        <li class="listMenuItem">
+                                            <a href="button.html#primarybuttons"  class="listMenuValue" >Primary Buttons</a>
+                                        </li>
+                                        <li class="listMenuItem">
+                                            <a href="button.html#linkbutton"  class="listMenuValue">Link Button</a>
+                                        </li>
+                                        <li class="listMenuItem">
+                                            <a href="button.html#iconbutton"  class="listMenuValue">Icon Button</a>
+                                        </li>
+                                        <li class="listMenuItem">
+                                            <a href="button.html#floatingbutton"  class="listMenuValue">Floating Button</a>
+                                        </li>
+                                    </ul>
+                                    <input type="radio" name="dropdown" id="dropclose" /> 
+                            </li>
+                            <li class="listItem">
+                                    <a href="card.html" class="listValue text3 ls">Card</a>
+                                    <input type="radio" name="drop1down" id="drop1open" />     
+                                    <label class="closer cp m10" for="drop1close"><i class="bi bi-chevron-up"></i></label>                   
+                                    <label class="opener cp m10" for="drop1open"><i class="bi bi-chevron-down"></i></label>                        
+                                    <ul>
+                                        <li class="listMenuItem">
+                                            <a href="card.html#vertical" class="listMenuValue">Vertical Layout</a>
+                                        </li>
+                                        <li class="listMenuItem">
+                                            <a href="card.html#horizontal" class="listMenuValue">Horizontal Layout</a>
+                                        </li>  
+                                    </ul>
+                                    <input type="radio" name="drop1down" id="drop1close" />                        
+                            </li>
+                            <li class="listItem">
+                                <a href="grid.html" class="listValue text3 ls"></i>Grid</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="image.html" class="listValue text3 ls"></i>Image</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="input.html" class="listValue text3 ls"></i>Input</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="list.html" class="listValue text3 ls"></i>List</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="modal.html" class="listValue text3 ls"></i>Modal</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="navbar.html" class="listValue text3 ls"></i>Navbar</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="rating.html" class="listValue text3 ls"></i>Rating</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="slider.html" class="listValue text3 ls"></i>Slider</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="snackbar.html" class="listValue text3 ls"></i>Snackbar</a>
+                            </li>
+                        </ul>
+                    <div class="account-links m-t10">
+                        <h4 class="text4 regular">Connect through: </h4>
+                        <a href="#" class="icon-button"><i class="bi bi-github"></i></a>
+                        <a href="#" class="icon-button"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </ul>
+           </div>
+            <h1 class="heading2 medium nav-title">Thread UI</h1>          
             <div class="nav-items">
                 <nav>
                     <ul>
@@ -49,12 +163,12 @@
                     </ul>
                 <h3 class="heading4 medium">Components</h3>
                     <ul class="menu">
+                        <li class="listItem nav-active">
+                            <a href="alert.html"  class="listValue text4 ls"></i>Alert</a>
+                        </li>
                         <li class="listItem">
                              <a href="avatar.html"  class="listValue text4 ls">Avatar</a>
-                        </li>
-                        <li class="listItem nav-active">
-                             <a href="alert.html"  class="listValue text4 ls"></i>Alert</a>
-                        </li>
+                        </li>                        
                         <li class="listItem">
                             <a href="badge.html"   class="listValue text4 ls"></i>Badge</a>
                        </li>
@@ -96,26 +210,32 @@
                              <input type="radio" name="drop1down" id="drop1close" />                        
                         </li>
                         <li class="listItem">
+                            <a href="grid.html" class="listValue text4 ls"></i>Grid</a>
+                        </li>
+                        <li class="listItem">
                             <a href="image.html" class="listValue text4 ls"></i>Image</a>
                         </li>
                         <li class="listItem">
                             <a href="input.html" class="listValue text4 ls"></i>Input</a>
                         </li>
                         <li class="listItem">
-                            <a href="snackbar.html" class="listValue text4 ls"></i>Snackbar</a>
-                        </li>                                                     
-                        <li class="listItem">
-                            <a href="grid.html" class="listValue text4 ls"></i>Grid</a>
+                            <a href="list.html" class="listValue text4 ls"></i>List</a>
                         </li>
                         <li class="listItem">
                             <a href="modal.html" class="listValue text4 ls"></i>Modal</a>
                         </li>
                         <li class="listItem">
+                            <a href="navbar.html" class="listValue text4 ls"></i>Navbar</a>
+                        </li> 
+                        <li class="listItem">
                             <a href="rating.html" class="listValue text4 ls"></i>Rating</a>
                         </li>
                         <li class="listItem">
-                            <a href="navbar.html" class="listValue text4 ls"></i>Navbar</a>
+                            <a href="slider.html" class="listValue text4 ls"></i>Slider</a>
                         </li>
+                        <li class="listItem">
+                            <a href="snackbar.html" class="listValue text4 ls"></i>Snackbar</a>
+                        </li> 
                     </ul>
             </nav>
         </aside>
@@ -298,7 +418,7 @@
                         </li>
                     </ol>
                 </p>
-                <img class="img-view image-responsive" src="/assests/images/Alert_Positions.png">
+                <img loading="lazy" alt="Alert Positions" class="img-view image-responsive" src="/assests/images/Alert_Positions.png">
             </div>
         </main>
         </div>
