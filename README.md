@@ -7,7 +7,7 @@ Utilize the library to develop an amazing and seamless user interface.
 
 ## Documentation
 
-View the documentation: [Component Library](https://friendly-kilby-44e498.netlify.app/)
+View the documentation: [Component Library](https://threadui.netlify.app/)
 
 ---
 
@@ -15,11 +15,11 @@ View the documentation: [Component Library](https://friendly-kilby-44e498.netlif
 
 Utilize the components in your project by adding the stylesheet to the html file.
 ```html
-<link href="https://friendly-kilby-44e498.netlify.app/components/component.css" rel="stylesheet"/>
+<link href="https://threadui.netlify.app/components/component.css" rel="stylesheet"/>
 ```
 Or import it in css file.
 ```css
-@import url('https://friendly-kilby-44e498.netlify.app/components/component.css');
+@import url('https://threadui.netlify.app/components/component.css');
 ```
 ---
 
@@ -56,7 +56,7 @@ Avatar represent the user profiles.
 
     ![Image - Avatar](/assests/readme/avatar2.png)
 
-View the avatar component : [Avatar](https://friendly-kilby-44e498.netlify.app/documentation/avatar.html)
+View the avatar component : [Avatar](https://threadui.netlify.app/documentation/avatar.html)
 
 ---
 ## Alert 
@@ -76,7 +76,7 @@ Alerts help in notifying the users about the activity that is happening currentl
 
     ![Alert Position](/assests/readme/alert3.png)
 
-View the alert component : [Alert](https://friendly-kilby-44e498.netlify.app/documentation/alert.html)
+View the alert component : [Alert](https://threadui.netlify.app/documentation/alert.html)
 
 ---
 ## Badge
@@ -91,7 +91,7 @@ Badges help in showing the status of that users or help in noticfications.
 
     ![Badge on Avatars](/assests/readme/badge2.png)
 
-View the badge component : [Badge](https://friendly-kilby-44e498.netlify.app/documentation/badge.html)
+View the badge component : [Badge](https://threadui.netlify.app/documentation/badge.html)
 
 ---
 
@@ -121,7 +121,7 @@ Buttons help users to interact with the pages.
 
     ![Floating Action Button](/assests/readme/button5.png)
 
-View the button component : [Button](https://friendly-kilby-44e498.netlify.app/documentation/button.html)
+View the button component : [Button](https://threadui.netlify.app/documentation/button.html)
 
 ---
 
@@ -153,7 +153,7 @@ Cards provides information about the products to user.
 
     ![Horizontal Card](/assests/readme/card2.png)
 
-View the card component : [Card](https://friendly-kilby-44e498.netlify.app/documentation/card.html)
+View the card component : [Card](https://threadui.netlify.app/documentation/card.html)
 
 ---
 
@@ -167,7 +167,7 @@ Images give pictorial representation of the content.
 
     ![Round Image](/assests/readme/image1.png)
 
-View the image component : [Image](https://friendly-kilby-44e498.netlify.app/documentation/image.html)
+View the image component : [Image](https://threadui.netlify.app/documentation/image.html)
 
 ---
 
@@ -195,7 +195,7 @@ Input are boxes wherein the user can write their answers.
 
     ![InputBox with Icon](/assests/readme/input6.png)
 
-View the input component : [Input](https://friendly-kilby-44e498.netlify.app/documentation/input.html)
+View the input component : [Input](https://threadui.netlify.app/documentation/input.html)
 
 ---
 ## Snackbar
@@ -204,7 +204,7 @@ Snackbar provides short messages to users.
 
   ![Snackbar](/assests/readme/snackbar.png)
 
-View the snackbar component : [Snackbar](https://friendly-kilby-44e498.netlify.app/documentation/snackbar.html)
+View the snackbar component : [Snackbar](https://threadui.netlify.app/documentation/snackbar.html)
 
 ---
 ## Grid
@@ -217,7 +217,7 @@ Grid makes layouts more easier to use.
 
 1. Grid with 2 columns of ratio 70% and 30%.
 
-View the grid component : [Grid](https://friendly-kilby-44e498.netlify.app/documentation/grid.html)
+View the grid component : [Grid](https://threadui.netlify.app/documentation/grid.html)
 
 ---
 ## Modal
@@ -226,7 +226,7 @@ Modals are popup screens to display messages or take inputs from user.
 
   ![Modal](/assests/readme/modal1.png)
 
-View the modal component : [Modal](https://friendly-kilby-44e498.netlify.app/documentation/modal.html)
+View the modal component : [Modal](https://threadui.netlify.app/documentation/modal.html)
 
 ---
 ## Rating
@@ -241,7 +241,7 @@ Rating helps users to give feedbacks or experience of the user.
 
     ![Custom Icon Rating](/assests/readme/rating2.png)
 
-View the rating component : [Rating](https://friendly-kilby-44e498.netlify.app/documentation/rating.html)
+View the rating component : [Rating](https://threadui.netlify.app/documentation/rating.html)
 
 ---
 ## Navbar
@@ -260,7 +260,7 @@ It helps in navigating through the application.
 
 1. Basic Responsive Navbar 2.
 
-View the navbar component : [Navbar](https://friendly-kilby-44e498.netlify.app/documentation/navbar.html)
+View the navbar component : [Navbar](https://threadui.netlify.app/documentation/navbar.html)
 
 ---
 ## List
@@ -286,21 +286,21 @@ Group of items placed together.
     ![Notification 2](/assests/readme/list3.png)
 
 
-View the list component : [List](https://friendly-kilby-44e498.netlify.app/documentation/list.html)
+View the list component : [List](https://threadui.netlify.app/documentation/list.html)
 
 ---
 ## Typography (Heading)
 
   ![Headings](/assests/readme/typography1.png)
 
-View the heading component : [Heading](https://friendly-kilby-44e498.netlify.app/documentation/typography-heading.html)
+View the heading component : [Heading](https://threadui.netlify.app/documentation/typography-heading.html)
 
 ---
 ## Typography (Text)
 
   ![Text](/assests/readme/typography2.png)
 
-View the text component : [Text](https://friendly-kilby-44e498.netlify.app/documentation/typography-text.html)
+View the text component : [Text](https://threadui.netlify.app/documentation/typography-text.html)
 
 ---
 ## Typography (Utilities)
@@ -330,7 +330,7 @@ Properties that can be applied on text.
         ![Basic Navbar 2](/assests/readme/typography7.png)
 
 
-View the utilities component : [Utilities](https://friendly-kilby-44e498.netlify.app/documentation/typography-helper.html)
+View the utilities component : [Utilities](https://threadui.netlify.app/documentation/typography-helper.html)
 
 ---
 </font>

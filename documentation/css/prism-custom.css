@@ -72,7 +72,7 @@ code[class*=language-], pre[class*=language-] {
     color: var(--code-css-selector);
 }
 
-.language-css .token.string{
+.language-css .token.string ,.token.url{
     background: unset;
 }
 
