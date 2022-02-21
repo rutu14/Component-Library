@@ -210,6 +210,10 @@
     height: 20rem;
 }
 
+.slider-height{
+    height: 9rem;
+}
+
 .container-input{
     display: flex;
     width: fit-content;
