@@ -335,7 +335,7 @@
         padding: 1rem 2rem;
     }
 
-    #component{
+    #component, #primarybuttons, #linkbutton, #iconbutton, #floatingbutton{
         padding: 2rem;
     }
 
@@ -343,7 +343,7 @@
         opacity: 0; 
     }
 
-    .btn-container{
+    .input-container{
         flex-direction: column;
         height: 13rem;
         padding: 0;
@@ -351,6 +351,14 @@
 
     .list-container{
         flex-direction: column;
+    }
+
+    .color-detail-mobile{
+        padding: 1rem 1rem 1rem 3rem;
+    }
+
+    .home-page-align{
+        grid-auto-rows: max-content;
     }
 }
 

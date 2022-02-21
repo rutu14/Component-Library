@@ -219,3 +219,21 @@ input.input-grp-left:focus {
 input.input-grp-right:focus{
     border-right: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .label-on-input {
+        transform: translate(10px, 3px);
+        height: 1.6rem;
+    }
+
+    .checkbox:not(.switch):after{
+        left: 5px;
+        top: 1px;
+    }
+
+    .radiobtn:after {
+        transform: translate(2.3px, 2.3px);
+    }
+    
+    
+}
