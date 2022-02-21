@@ -46,3 +46,30 @@
     min-width: unset;
     transform: translate(52rem, -15px);
 }
+
+@media only screen and (max-width: 1200px) {
+    .modal-backdrop{
+        padding: unset;
+        padding: 2rem;
+    }
+
+    .close-modal {
+        transform: translate(50vw, -15px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-backdrop{
+        padding: 2rem;
+    }
+
+    .modal-dialog {
+        width: unset;
+    }
+
+    .close-modal {
+        transform: translate(29rem, -15px);
+    }
+
+
+}

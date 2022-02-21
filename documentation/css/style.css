@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 @import url(/components/component.css);
 @import url(prism-custom.css);
 @import url(colour-scheme.css);
@@ -41,10 +43,6 @@
     height: calc(100vh - 6rem);
 }
 
-.hero-img{
-    height: inherit;
-}
-
 .hero-section{
     padding: 4rem;
 }
@@ -81,6 +79,10 @@
 .header{
     grid-area: header;
     height: 6rem;
+}
+
+.nav-title{
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 .maincontent{
@@ -210,8 +212,10 @@
 
 .container-input{
     display: flex;
+    width: fit-content;
     flex-direction: column;
-    padding: 0px 30rem;
+    padding: 0px 3rem;
+    margin: auto;
 }
 
 .img-view{
@@ -262,3 +266,93 @@
 .list-close{
     margin-left: auto;
 }
+
+@media only screen and (max-width: 1200px) {
+
+    .wrapper{
+        grid-template-columns: 18rem 1fr;
+    }
+
+    #component{
+        padding: 2rem;
+    }
+
+    .card-container{
+        flex-direction: column;
+        height: 48rem;
+    }
+
+    .round-container{
+        flex-direction: column;
+        height: 78rem;
+    }
+
+    .container-alert{
+        height: 50rem;
+    }
+
+    .container-typography {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-section {
+        padding: 0 2rem;
+    }
+
+    .grid-mobile {
+        grid-template-columns: 1fr;
+    }
+
+    .wrapper{
+        grid-template-areas:  
+        "header header"
+        "main main"
+        "main main"
+        "main main"
+        "main main"
+        "main main"; 
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .nav-active{
+        background-color: var(--warning-background);
+    }
+
+    .listMenuValue {
+        font-size: 1.8rem;
+    }
+
+    .account-links{
+        width: unset;
+    }
+
+    .listItem {
+        padding: 1rem 2rem;
+    }
+
+    #component{
+        padding: 2rem;
+    }
+
+    .code-syntax .code-toolbar .toolbar {
+        opacity: 0; 
+    }
+
+    .btn-container{
+        flex-direction: column;
+        height: 13rem;
+        padding: 0;
+    }
+
+    .list-container{
+        flex-direction: column;
+    }
+}
+
+
+

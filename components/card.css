@@ -177,9 +177,9 @@
 }
 
 .horizontal-large-content{
-    width: 50rem;
+    width: fit-content;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .h-large-action{
@@ -205,4 +205,35 @@
     position: absolute;
     background: #3e4451;
     color: var(--tertiary-colour);
+}
+
+@media only screen and (max-width: 600px) {
+    .horizontal-medium {
+        width: -webkit-fill-available;
+    }
+
+    .horizontal-medium-img {
+        width: 10rem;
+    }
+
+    .horizontal-large-img {
+        width: 12rem;
+    }
+
+    .horizontal-medium-content, .horizontal-large-content{
+        width: fit-content;
+        overflow: auto;
+    }
+
+    .card-actions-flow {
+        flex-direction: column;
+    }
+
+    .h-large-action{
+        justify-content: unset;
+    }
+
+    .h-large-btns {
+        margin: 1rem 0 0;
+    }
 }
