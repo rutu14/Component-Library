@@ -38,6 +38,7 @@ Or import it in css file.
 1. [`Rating`](#rating)
 1. [`Navbar`](#navbar)
 1. [`List`](#list)
+1. [`Slider`](#slider)
 1. [`Typography (Heading)`](#list)
 1. [`Typography (Text)`](#modal)
 1. [`Typography (Utilities)`](#text-utilities)
@@ -287,6 +288,16 @@ Group of items placed together.
 
 
 View the list component : [List](https://threadui.netlify.app/documentation/list.html)
+
+---
+
+## Slider
+
+1. Basic Slider.
+
+1. Basic Slider with label.
+
+View the slider component : [Slider](https://threadui.netlify.app/documentation/slider.html)
 
 ---
 ## Typography (Heading)
