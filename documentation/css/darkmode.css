@@ -1,0 +1,185 @@
+html[data-theme="dark"]{
+    --black:#c7d5ed;
+    --link-text-color:#d6d3edb8;
+    --link-hover:#f6e5e5cc;
+    --doc-code:#342c2c;
+    --link-active:#d6d3edcc;
+    --mobile-nav-shadow: none;
+
+    --landing-bg:#312f32;
+    --landing-color:#dde8fc;
+    --documentation-bg:#2a292c;
+    --documentation-color:#c7d5ed;
+    --middle-overlay:#c95859e3;      
+    --disabled-label:#f2eeee;  
+    --alert-border: #36383a;
+    --alert-bg:#3a393d;
+    --alert-desc:#f5efefa6;
+    --btn-icon:#c7d5ed;
+    --btn-primary:#e26c6dd4;
+    --btn-primary-text:#fbf7ffdb;
+    --btn-link:#e5e0e0a6;    
+    --input-box:#d1d2d9e3;
+    --input-btn:#f0d8aaad;    
+    --input-btn-hover-color:#2c2d30;
+    --input-btn-hover-bg:#f0d8aae8;
+    --label-input:#ffffffd6;
+    --gray-1:#313131e6;
+    --gray-2:#403c48;
+    --pure-black:#000000;
+    --black-1:#111111;
+    --black-2:#090909;
+    --black-3:#08080c;
+
+    --color-box-shadow:0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+    --card-shadow:0 3px 5px -1px rgb(106 106 106 / 80%), 0 6px 10px 0 rgb(52 49 49 / 22%), 0 1px 18px 0 rgb(0 0 0 / 13%);
+}
+
+[data-theme="dark"] .landing-background{
+    background-color:var(--landing-bg);
+    color: var(--landing-color);
+}
+
+[data-theme="dark"] .documentation{
+    background-color: var(--documentation-bg);
+    color: var(--documentation-color);
+}
+
+[data-theme="dark"] img{
+    filter: brightness(.8) contrast(1.2);
+}
+
+[data-theme="dark"] .middle-overlay {
+    background: var(--middle-overlay);
+    z-index: 1;
+}
+
+[data-theme="dark"] .colour-box{
+    box-shadow: var(--color-box-shadow);
+}
+
+[data-theme="dark"] .alert:not(.alert-success,.alert-error,.alert-warning,.alert-info) {
+    border: 0.1rem solid var(--alert-border);
+    background-color: var(--alert-bg);
+}
+
+
+[data-theme="dark"] .alert:not(.alert-success,.alert-error,.alert-warning,.alert-info) > .alert-content > .alert-description {
+    color: var(--alert-desc);
+}
+
+[data-theme="dark"] .btn {
+    color: var(--black);
+}
+
+[data-theme="dark"] .button-icon .bi {
+    color: var(--btn-icon);
+}
+
+[data-theme="dark"] .btn-primary {
+    background-color: var(--btn-primary);
+    color: var(--btn-primary-text);
+}
+
+[data-theme="dark"] .outline, .icon-outline {
+    background-color: var(--btn-primary-text);
+    border: 1px solid var(--btn-primary);
+    color: var(--btn-primary);
+}
+
+[data-theme="dark"] .btn-primary.outline > .inside-btn {
+    color: var(--btn-primary);
+}
+
+[data-theme="dark"] .btn-primary .inside-btn{
+    color: var(--btn-primary-text);
+}
+
+[data-theme="dark"] .btn-link {
+    color: var(--btn-link);
+}
+
+[data-theme="dark"] .btn-link:hover {
+    color: var(--black);
+}
+
+[data-theme="dark"] .icon-outline {
+    background-color: transparent;
+    border: none;
+}
+
+[data-theme="dark"] .icon-ip {
+    color: var(--pure-black);
+    background: var(--input-box);
+}
+
+[data-theme="dark"] .text-input {
+    background: var(--input-box);
+}
+
+[data-theme="dark"] .input-grp-btn {
+    background: var(--input-btn);
+    color: var(--black-1);
+}
+
+[data-theme="dark"] .input-grp-btn:hover {
+    color: var(--input-btn-hover-color);
+    background: var(--input-btn-hover-bg);
+}
+
+[data-theme="dark"] .label-on-input{
+    transform: translate(10px, 5px);
+    background: var(--label-input);
+    color: var(--pure-black);
+    border-radius: 4px;
+    padding: 1px 4px;
+}
+
+[data-theme="dark"] .notification-items {
+    background-color: unset;
+}
+
+[data-theme="dark"] .notify {
+    box-shadow: var(--notify-shadow) 2.4px 2.4px 14.2px;
+}
+
+[data-theme="dark"] .nav-width > .nav-items > nav > ul > li > .nav-text-link
+, .nav-width, .nav-width > .icon-button , .modal-content{
+    color: var(--pure-black);
+}
+
+[data-theme="dark"] .text-card-button {
+    color: var(--primary-colour);
+}
+
+[data-theme="dark"] [aria-selected="true"] {
+    background: var(--modal-bg);
+}
+
+[data-theme="dark"] .tab-header, .card-title, .card-subtitle,.card-content {
+    color: currentColor;
+}
+
+[data-theme="dark"] .card { 
+    background: var(--gray-1);
+}
+
+[data-theme="dark"] .disabled-label {
+    background: var(--black-2);
+    color: var(--disabled-label);
+    z-index: 1;
+}
+
+[data-theme="dark"] .card-box-shadow{
+    box-shadow: var(--card-shadow);
+}
+
+[data-theme="dark"] .menu-nav {
+    background-color: var(--gray-2);
+}
+
+[data-theme="dark"] .nav-active > .listValue,
+[data-theme="dark"] .listItem:hover > .listValue,
+[data-theme="dark"] .listItem:hover > .opener, .closer{
+    color: var(--black-3);
+}

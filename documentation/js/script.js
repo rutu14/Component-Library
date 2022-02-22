@@ -23,8 +23,29 @@ function changeTabs(e) {
       .removeAttribute('hidden');
   }
 
-/* Refresh button */
+const themeMobile = document.querySelector('#mobile-theme');
+const themeDesktop = document.querySelector('#desktop-theme');
 
-const refreshbtn = document.querySelector(".refresh-btn");
-refreshbtn.addEventListener( 'click', refreshWindow );
-function refreshWindow () {location.reload();} 
+function switchTheme(e) {
+  if (e.target.checked) {
+      localStorage.setItem('theme', 'dark');
+      document.documentElement.setAttribute('data-theme', 'dark');
+      themeMobile.checked = true;
+      themeDesktop.checked = true;
+  } else {
+      localStorage.setItem('theme', 'light');
+      document.documentElement.setAttribute('data-theme', 'light');
+      themeMobile.checked = false;
+      themeDesktop.checked = false;
+  }    
+}
+
+themeMobile.addEventListener('change', switchTheme, false);
+themeDesktop.addEventListener('change', switchTheme, false);
+
+if (document.documentElement.getAttribute("data-theme") == "dark"){
+    themeMobile.checked = true;
+    themeDesktop.checked = true;
+}
+
+
